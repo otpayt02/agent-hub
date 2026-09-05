@@ -1,0 +1,2427 @@
+{
+  "generated_at": "2026-09-05T15:36:08.628Z",
+  "projects_root": "%USERPROFILE%\\Projects",
+  "output_dir": "agent-skill-context",
+  "exclusions": [
+    ".git",
+    ".next",
+    ".turbo",
+    ".venv",
+    "__pycache__",
+    "build",
+    "dist",
+    "node_modules",
+    "site-packages"
+  ],
+  "total_records": 344,
+  "records": [
+    {
+      "name": "CODEX_PERSONALIZATION_INSTRUCTIONS.md",
+      "kind": "personalization",
+      "source_family": "personalization",
+      "project": ".agents",
+      "relative_path": ".agents\\CODEX_PERSONALIZATION_INSTRUCTIONS.md"
+    },
+    {
+      "name": "find-skills",
+      "kind": "skill",
+      "source_family": "agents-project-skills",
+      "project": ".agents",
+      "relative_path": ".agents\\skills\\find-skills\\SKILL.md"
+    },
+    {
+      "name": "cinematic-scroll-ui",
+      "kind": "skill",
+      "source_family": "claude-compatible-skills",
+      "project": "23a5",
+      "relative_path": "23a5\\koa-website\\.claude\\skills\\cinematic-scroll-ui\\SKILL.md"
+    },
+    {
+      "name": "mission-led-motion-ui",
+      "kind": "skill",
+      "source_family": "project-skills",
+      "project": "23a5",
+      "relative_path": "23a5\\koa-website\\skills\\mission-led-motion-ui\\SKILL.md"
+    },
+    {
+      "name": "cinematic-scroll-ui",
+      "kind": "skill",
+      "source_family": "claude-compatible-skills",
+      "project": "325e",
+      "relative_path": "325e\\koa-website\\.claude\\skills\\cinematic-scroll-ui\\SKILL.md"
+    },
+    {
+      "name": "koa-frame-story-spec",
+      "kind": "skill",
+      "source_family": "project-skills",
+      "project": "325e",
+      "relative_path": "325e\\koa-website\\skills\\koa-frame-story-spec\\SKILL.md"
+    },
+    {
+      "name": "koa-mobile-preview",
+      "kind": "skill",
+      "source_family": "project-skills",
+      "project": "325e",
+      "relative_path": "325e\\koa-website\\skills\\koa-mobile-preview\\SKILL.md"
+    },
+    {
+      "name": "koa-translation-mapper",
+      "kind": "skill",
+      "source_family": "project-skills",
+      "project": "325e",
+      "relative_path": "325e\\koa-website\\skills\\koa-translation-mapper\\SKILL.md"
+    },
+    {
+      "name": "mission-led-motion-ui",
+      "kind": "skill",
+      "source_family": "project-skills",
+      "project": "325e",
+      "relative_path": "325e\\koa-website\\skills\\mission-led-motion-ui\\SKILL.md"
+    },
+    {
+      "name": "repo-understanding-sync",
+      "kind": "skill",
+      "source_family": "project-skills",
+      "project": "325e",
+      "relative_path": "325e\\koa-website\\skills\\repo-understanding-sync\\SKILL.md"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "agent-instructions",
+      "source_family": "agent-instructions",
+      "project": "a-loud-reader",
+      "relative_path": "a-loud-reader\\AGENTS.md"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "agent-instructions",
+      "source_family": "agent-instructions",
+      "project": "ai_eng_skill_map",
+      "relative_path": "ai_eng_skill_map\\firecrawl\\AGENTS.md"
+    },
+    {
+      "name": "CLAUDE.md",
+      "kind": "claude-instructions",
+      "source_family": "claude-instructions",
+      "project": "ai_eng_skill_map",
+      "relative_path": "ai_eng_skill_map\\firecrawl\\CLAUDE.md"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "agent-instructions",
+      "source_family": "project-skills",
+      "project": "ai_eng_skill_map",
+      "relative_path": "ai_eng_skill_map\\skills\\AGENTS.md"
+    },
+    {
+      "name": "find-skills",
+      "kind": "skill",
+      "source_family": "project-skills",
+      "project": "ai_eng_skill_map",
+      "relative_path": "ai_eng_skill_map\\skills\\skills\\find-skills\\SKILL.md"
+    },
+    {
+      "name": "magicpath",
+      "kind": "skill",
+      "source_family": "agents-project-skills",
+      "project": "ai-free-update-scrape",
+      "relative_path": "ai-free-update-scrape\\.agents\\skills\\magicpath\\SKILL.md"
+    },
+    {
+      "name": "thread-context-docs",
+      "kind": "skill",
+      "source_family": "agents-project-skills",
+      "project": "ai-free-update-scrape",
+      "relative_path": "ai-free-update-scrape\\.agents\\skills\\thread-context-docs\\SKILL.md"
+    },
+    {
+      "name": "observe-youtube-workflow",
+      "kind": "skill",
+      "source_family": "project-skills",
+      "project": "ai-free-update-scrape",
+      "relative_path": "ai-free-update-scrape\\plugins\\signal-console\\skills\\observe-youtube-workflow\\SKILL.md"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "agent-instructions",
+      "source_family": "agent-instructions",
+      "project": "ai-free-update-scrape",
+      "relative_path": "ai-free-update-scrape\\sites\\ai-free-update-scrape\\AGENTS.md"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "agent-instructions",
+      "source_family": "agent-instructions",
+      "project": "chin-lone-ai",
+      "relative_path": "chin-lone-ai\\AGENTS.md"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "agent-instructions",
+      "source_family": "agent-instructions",
+      "project": "freelance-offer-studio",
+      "relative_path": "freelance-offer-studio\\AGENTS.md"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "agent-instructions",
+      "source_family": "agent-instructions",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\AGENTS.md"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "agent-instructions",
+      "source_family": "agent-instructions",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\apps\\desktop\\AGENTS.md"
+    },
+    {
+      "name": "antigravity-cli",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\autonomous-ai-agents\\antigravity-cli\\SKILL.md"
+    },
+    {
+      "name": "blackbox",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\autonomous-ai-agents\\blackbox\\SKILL.md"
+    },
+    {
+      "name": "grok",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\autonomous-ai-agents\\grok\\SKILL.md"
+    },
+    {
+      "name": "honcho",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\autonomous-ai-agents\\honcho\\SKILL.md"
+    },
+    {
+      "name": "openhands",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\autonomous-ai-agents\\openhands\\SKILL.md"
+    },
+    {
+      "name": "evm",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\blockchain\\evm\\SKILL.md"
+    },
+    {
+      "name": "hyperliquid",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\blockchain\\hyperliquid\\SKILL.md"
+    },
+    {
+      "name": "solana",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\blockchain\\solana\\SKILL.md"
+    },
+    {
+      "name": "one-three-one-rule",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\communication\\one-three-one-rule\\SKILL.md"
+    },
+    {
+      "name": "audiocraft-audio-generation",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\creative\\audiocraft-audio-generation\\SKILL.md"
+    },
+    {
+      "name": "baoyu-article-illustrator",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\creative\\baoyu-article-illustrator\\SKILL.md"
+    },
+    {
+      "name": "baoyu-comic",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\creative\\baoyu-comic\\SKILL.md"
+    },
+    {
+      "name": "concept-diagrams",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\creative\\concept-diagrams\\SKILL.md"
+    },
+    {
+      "name": "creative-ideation",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\creative\\creative-ideation\\SKILL.md"
+    },
+    {
+      "name": "draw-your-font",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\creative\\draw-your-font\\SKILL.md"
+    },
+    {
+      "name": "heartmula",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\creative\\heartmula\\SKILL.md"
+    },
+    {
+      "name": "hyperframes",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\creative\\hyperframes\\SKILL.md"
+    },
+    {
+      "name": "kanban-video-orchestrator",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\creative\\kanban-video-orchestrator\\SKILL.md"
+    },
+    {
+      "name": "meme-generation",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\creative\\meme-generation\\SKILL.md"
+    },
+    {
+      "name": "pixel-art",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\creative\\pixel-art\\SKILL.md"
+    },
+    {
+      "name": "simple-english",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\creative\\simple-english\\SKILL.md"
+    },
+    {
+      "name": "social-media-content-calendar",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\creative\\social-media-content-calendar\\SKILL.md"
+    },
+    {
+      "name": "tldraw-offline",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\creative\\tldraw-offline\\SKILL.md"
+    },
+    {
+      "name": "unreal-mcp",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\creative\\unreal-mcp\\SKILL.md"
+    },
+    {
+      "name": "jupyter-notebook",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\data-science\\jupyter-notebook\\SKILL.md"
+    },
+    {
+      "name": "actual-setup",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\devops\\actual-setup\\SKILL.md"
+    },
+    {
+      "name": "docker-management",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\devops\\docker-management\\SKILL.md"
+    },
+    {
+      "name": "hermes-s6-container-supervision",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\devops\\hermes-s6-container-supervision\\SKILL.md"
+    },
+    {
+      "name": "inference-sh-cli",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\devops\\inference-sh-cli\\SKILL.md"
+    },
+    {
+      "name": "pinggy-tunnel",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\devops\\pinggy-tunnel\\SKILL.md"
+    },
+    {
+      "name": "watchers",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\devops\\watchers\\SKILL.md"
+    },
+    {
+      "name": "adversarial-ux-test",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\dogfood\\adversarial-ux-test\\SKILL.md"
+    },
+    {
+      "name": "agentmail",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\email\\agentmail\\SKILL.md"
+    },
+    {
+      "name": "3-statement-model",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\finance\\3-statement-model\\SKILL.md"
+    },
+    {
+      "name": "comps-analysis",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\finance\\comps-analysis\\SKILL.md"
+    },
+    {
+      "name": "dcf-model",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\finance\\dcf-model\\SKILL.md"
+    },
+    {
+      "name": "excel-author",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\finance\\excel-author\\SKILL.md"
+    },
+    {
+      "name": "lbo-model",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\finance\\lbo-model\\SKILL.md"
+    },
+    {
+      "name": "merger-model",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\finance\\merger-model\\SKILL.md"
+    },
+    {
+      "name": "polymarket",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\finance\\polymarket\\SKILL.md"
+    },
+    {
+      "name": "pptx-author",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\finance\\pptx-author\\SKILL.md"
+    },
+    {
+      "name": "stocks",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\finance\\stocks\\SKILL.md"
+    },
+    {
+      "name": "minecraft-modpack-server",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\gaming\\minecraft-modpack-server\\SKILL.md"
+    },
+    {
+      "name": "pokemon-player",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\gaming\\pokemon-player\\SKILL.md"
+    },
+    {
+      "name": "fitness-nutrition",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\health\\fitness-nutrition\\SKILL.md"
+    },
+    {
+      "name": "neuroskill-bci",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\health\\neuroskill-bci\\SKILL.md"
+    },
+    {
+      "name": "fastmcp",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mcp\\fastmcp\\SKILL.md"
+    },
+    {
+      "name": "mcp-oauth-remote-gateway",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mcp\\mcp-oauth-remote-gateway\\SKILL.md"
+    },
+    {
+      "name": "mcporter",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mcp\\mcporter\\SKILL.md"
+    },
+    {
+      "name": "openclaw-migration",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\migration\\openclaw-migration\\SKILL.md"
+    },
+    {
+      "name": "accelerate",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mlops\\accelerate\\SKILL.md"
+    },
+    {
+      "name": "chroma",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mlops\\chroma\\SKILL.md"
+    },
+    {
+      "name": "clip",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mlops\\clip\\SKILL.md"
+    },
+    {
+      "name": "faiss",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mlops\\faiss\\SKILL.md"
+    },
+    {
+      "name": "flash-attention",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mlops\\flash-attention\\SKILL.md"
+    },
+    {
+      "name": "guidance",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mlops\\guidance\\SKILL.md"
+    },
+    {
+      "name": "huggingface-tokenizers",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mlops\\huggingface-tokenizers\\SKILL.md"
+    },
+    {
+      "name": "outlines",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mlops\\inference\\outlines\\SKILL.md"
+    },
+    {
+      "name": "instructor",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mlops\\instructor\\SKILL.md"
+    },
+    {
+      "name": "lambda-labs",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mlops\\lambda-labs\\SKILL.md"
+    },
+    {
+      "name": "llava",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mlops\\llava\\SKILL.md"
+    },
+    {
+      "name": "modal",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mlops\\modal\\SKILL.md"
+    },
+    {
+      "name": "segment-anything-model",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mlops\\models\\segment-anything-model\\SKILL.md"
+    },
+    {
+      "name": "nemo-curator",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mlops\\nemo-curator\\SKILL.md"
+    },
+    {
+      "name": "obliteratus",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mlops\\obliteratus\\SKILL.md"
+    },
+    {
+      "name": "peft",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mlops\\peft\\SKILL.md"
+    },
+    {
+      "name": "pinecone",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mlops\\pinecone\\SKILL.md"
+    },
+    {
+      "name": "pytorch-fsdp",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mlops\\pytorch-fsdp\\SKILL.md"
+    },
+    {
+      "name": "pytorch-lightning",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mlops\\pytorch-lightning\\SKILL.md"
+    },
+    {
+      "name": "qdrant",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mlops\\qdrant\\SKILL.md"
+    },
+    {
+      "name": "dspy",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mlops\\research\\dspy\\SKILL.md"
+    },
+    {
+      "name": "saelens",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mlops\\saelens\\SKILL.md"
+    },
+    {
+      "name": "simpo",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mlops\\simpo\\SKILL.md"
+    },
+    {
+      "name": "slime",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mlops\\slime\\SKILL.md"
+    },
+    {
+      "name": "stable-diffusion",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mlops\\stable-diffusion\\SKILL.md"
+    },
+    {
+      "name": "tensorrt-llm",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mlops\\tensorrt-llm\\SKILL.md"
+    },
+    {
+      "name": "torchtitan",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mlops\\torchtitan\\SKILL.md"
+    },
+    {
+      "name": "axolotl",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mlops\\training\\axolotl\\SKILL.md"
+    },
+    {
+      "name": "trl-fine-tuning",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mlops\\training\\trl-fine-tuning\\SKILL.md"
+    },
+    {
+      "name": "unsloth",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mlops\\training\\unsloth\\SKILL.md"
+    },
+    {
+      "name": "whisper",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\mlops\\whisper\\SKILL.md"
+    },
+    {
+      "name": "mpp-agent",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\payments\\mpp-agent\\SKILL.md"
+    },
+    {
+      "name": "stripe-link-cli",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\payments\\stripe-link-cli\\SKILL.md"
+    },
+    {
+      "name": "stripe-projects",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\payments\\stripe-projects\\SKILL.md"
+    },
+    {
+      "name": "canvas",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\productivity\\canvas\\SKILL.md"
+    },
+    {
+      "name": "here-now",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\productivity\\here-now\\SKILL.md"
+    },
+    {
+      "name": "memento-flashcards",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\productivity\\memento-flashcards\\SKILL.md"
+    },
+    {
+      "name": "shop",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\productivity\\shop\\SKILL.md"
+    },
+    {
+      "name": "shopify",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\productivity\\shopify\\SKILL.md"
+    },
+    {
+      "name": "siyuan",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\productivity\\siyuan\\SKILL.md"
+    },
+    {
+      "name": "telephony",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\productivity\\telephony\\SKILL.md"
+    },
+    {
+      "name": "bioinformatics",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\research\\bioinformatics\\SKILL.md"
+    },
+    {
+      "name": "darwinian-evolver",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\research\\darwinian-evolver\\SKILL.md"
+    },
+    {
+      "name": "domain-intel",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\research\\domain-intel\\SKILL.md"
+    },
+    {
+      "name": "drug-discovery",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\research\\drug-discovery\\SKILL.md"
+    },
+    {
+      "name": "duckduckgo-search",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\research\\duckduckgo-search\\SKILL.md"
+    },
+    {
+      "name": "gitnexus-explorer",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\research\\gitnexus-explorer\\SKILL.md"
+    },
+    {
+      "name": "osint-investigation",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\research\\osint-investigation\\SKILL.md"
+    },
+    {
+      "name": "parallel-cli",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\research\\parallel-cli\\SKILL.md"
+    },
+    {
+      "name": "pinecone-research",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\research\\pinecone-research\\SKILL.md"
+    },
+    {
+      "name": "qmd",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\research\\qmd\\SKILL.md"
+    },
+    {
+      "name": "scrapling",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\research\\scrapling\\SKILL.md"
+    },
+    {
+      "name": "searxng-search",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\research\\searxng-search\\SKILL.md"
+    },
+    {
+      "name": "1password",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\security\\1password\\SKILL.md"
+    },
+    {
+      "name": "godmode",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\security\\godmode\\SKILL.md"
+    },
+    {
+      "name": "oss-forensics",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\security\\oss-forensics\\SKILL.md"
+    },
+    {
+      "name": "sherlock",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\security\\sherlock\\SKILL.md"
+    },
+    {
+      "name": "unbroker",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\security\\unbroker\\SKILL.md"
+    },
+    {
+      "name": "web-pentest",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\security\\web-pentest\\SKILL.md"
+    },
+    {
+      "name": "ast-grep",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\software-development\\ast-grep\\SKILL.md"
+    },
+    {
+      "name": "code-wiki",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\software-development\\code-wiki\\SKILL.md"
+    },
+    {
+      "name": "rest-graphql-debug",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\software-development\\rest-graphql-debug\\SKILL.md"
+    },
+    {
+      "name": "subagent-driven-development",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\software-development\\subagent-driven-development\\SKILL.md"
+    },
+    {
+      "name": "cloudflare-temporary-deploy",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\web-development\\cloudflare-temporary-deploy\\SKILL.md"
+    },
+    {
+      "name": "har-derived-api-client",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\web-development\\har-derived-api-client\\SKILL.md"
+    },
+    {
+      "name": "page-agent",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\web-development\\page-agent\\SKILL.md"
+    },
+    {
+      "name": "yuanbao",
+      "kind": "skill",
+      "source_family": "hermes-optional-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\optional-skills\\yuanbao\\SKILL.md"
+    },
+    {
+      "name": "google_meet",
+      "kind": "skill",
+      "source_family": "hermes-plugins",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\plugins\\google_meet\\SKILL.md"
+    },
+    {
+      "name": "apple-notes",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\apple\\apple-notes\\SKILL.md"
+    },
+    {
+      "name": "apple-reminders",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\apple\\apple-reminders\\SKILL.md"
+    },
+    {
+      "name": "findmy",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\apple\\findmy\\SKILL.md"
+    },
+    {
+      "name": "imessage",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\apple\\imessage\\SKILL.md"
+    },
+    {
+      "name": "claude-code",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\autonomous-ai-agents\\claude-code\\SKILL.md"
+    },
+    {
+      "name": "codex",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\autonomous-ai-agents\\codex\\SKILL.md"
+    },
+    {
+      "name": "computer-use",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\autonomous-ai-agents\\computer-use\\SKILL.md"
+    },
+    {
+      "name": "hermes-agent",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\autonomous-ai-agents\\hermes-agent\\SKILL.md"
+    },
+    {
+      "name": "merge-reconciler",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\autonomous-ai-agents\\merge-reconciler\\SKILL.md"
+    },
+    {
+      "name": "opencode",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\autonomous-ai-agents\\opencode\\SKILL.md"
+    },
+    {
+      "name": "architecture-diagram",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\creative\\architecture-diagram\\SKILL.md"
+    },
+    {
+      "name": "ascii-art",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\creative\\ascii-art\\SKILL.md"
+    },
+    {
+      "name": "ascii-video",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\creative\\ascii-video\\SKILL.md"
+    },
+    {
+      "name": "baoyu-infographic",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\creative\\baoyu-infographic\\SKILL.md"
+    },
+    {
+      "name": "claude-design",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\creative\\claude-design\\SKILL.md"
+    },
+    {
+      "name": "comfyui",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\creative\\comfyui\\SKILL.md"
+    },
+    {
+      "name": "design-md",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\creative\\design-md\\SKILL.md"
+    },
+    {
+      "name": "excalidraw",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\creative\\excalidraw\\SKILL.md"
+    },
+    {
+      "name": "humanizer",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\creative\\humanizer\\SKILL.md"
+    },
+    {
+      "name": "manim-video",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\creative\\manim-video\\SKILL.md"
+    },
+    {
+      "name": "p5js",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\creative\\p5js\\SKILL.md"
+    },
+    {
+      "name": "popular-web-designs",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\creative\\popular-web-designs\\SKILL.md"
+    },
+    {
+      "name": "pretext",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\creative\\pretext\\SKILL.md"
+    },
+    {
+      "name": "sketch",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\creative\\sketch\\SKILL.md"
+    },
+    {
+      "name": "songwriting-and-ai-music",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\creative\\songwriting-and-ai-music\\SKILL.md"
+    },
+    {
+      "name": "touchdesigner-mcp",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\creative\\touchdesigner-mcp\\SKILL.md"
+    },
+    {
+      "name": "sdlc-review",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\devops\\sdlc-review\\SKILL.md"
+    },
+    {
+      "name": "email-inbox-triage",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\email\\email-inbox-triage\\SKILL.md"
+    },
+    {
+      "name": "himalaya",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\email\\himalaya\\SKILL.md"
+    },
+    {
+      "name": "codebase-inspection",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\github\\codebase-inspection\\SKILL.md"
+    },
+    {
+      "name": "github-auth",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\github\\github-auth\\SKILL.md"
+    },
+    {
+      "name": "github-code-review",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\github\\github-code-review\\SKILL.md"
+    },
+    {
+      "name": "github-issue-to-pr",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\github\\github-issue-to-pr\\SKILL.md"
+    },
+    {
+      "name": "github-issues",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\github\\github-issues\\SKILL.md"
+    },
+    {
+      "name": "github-pr-workflow",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\github\\github-pr-workflow\\SKILL.md"
+    },
+    {
+      "name": "github-repo-management",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\github\\github-repo-management\\SKILL.md"
+    },
+    {
+      "name": "gif-search",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\media\\gif-search\\SKILL.md"
+    },
+    {
+      "name": "songsee",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\media\\songsee\\SKILL.md"
+    },
+    {
+      "name": "youtube-content",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\media\\youtube-content\\SKILL.md"
+    },
+    {
+      "name": "evaluating-llms-harness",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\mlops\\evaluation\\evaluating-llms-harness\\SKILL.md"
+    },
+    {
+      "name": "weights-and-biases",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\mlops\\evaluation\\weights-and-biases\\SKILL.md"
+    },
+    {
+      "name": "huggingface-hub",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\mlops\\huggingface-hub\\SKILL.md"
+    },
+    {
+      "name": "llama-cpp",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\mlops\\inference\\llama-cpp\\SKILL.md"
+    },
+    {
+      "name": "serving-llms-vllm",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\mlops\\inference\\serving-llms-vllm\\SKILL.md"
+    },
+    {
+      "name": "obsidian",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\note-taking\\obsidian\\SKILL.md"
+    },
+    {
+      "name": "airtable",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\productivity\\airtable\\SKILL.md"
+    },
+    {
+      "name": "box",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\productivity\\box\\SKILL.md"
+    },
+    {
+      "name": "document-to-action-items",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\productivity\\document-to-action-items\\SKILL.md"
+    },
+    {
+      "name": "docx",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\productivity\\docx\\SKILL.md"
+    },
+    {
+      "name": "google-workspace",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\productivity\\google-workspace\\SKILL.md"
+    },
+    {
+      "name": "maps",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\productivity\\maps\\SKILL.md"
+    },
+    {
+      "name": "meeting-action-items",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\productivity\\meeting-action-items\\SKILL.md"
+    },
+    {
+      "name": "nano-pdf",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\productivity\\nano-pdf\\SKILL.md"
+    },
+    {
+      "name": "notion",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\productivity\\notion\\SKILL.md"
+    },
+    {
+      "name": "ocr-and-documents",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\productivity\\ocr-and-documents\\SKILL.md"
+    },
+    {
+      "name": "pdf",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\productivity\\pdf\\SKILL.md"
+    },
+    {
+      "name": "powerpoint",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\productivity\\powerpoint\\SKILL.md"
+    },
+    {
+      "name": "product-price-monitor",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\productivity\\product-price-monitor\\SKILL.md"
+    },
+    {
+      "name": "session-librarian",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\productivity\\session-librarian\\SKILL.md"
+    },
+    {
+      "name": "teams-meeting-pipeline",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\productivity\\teams-meeting-pipeline\\SKILL.md"
+    },
+    {
+      "name": "weekly-review-planning",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\productivity\\weekly-review-planning\\SKILL.md"
+    },
+    {
+      "name": "xlsx",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\productivity\\xlsx\\SKILL.md"
+    },
+    {
+      "name": "arxiv",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\research\\arxiv\\SKILL.md"
+    },
+    {
+      "name": "blocked-page-recovery",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\research\\blocked-page-recovery\\SKILL.md"
+    },
+    {
+      "name": "blogwatcher",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\research\\blogwatcher\\SKILL.md"
+    },
+    {
+      "name": "competitor-news-monitor",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\research\\competitor-news-monitor\\SKILL.md"
+    },
+    {
+      "name": "grounded-citations",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\research\\grounded-citations\\SKILL.md"
+    },
+    {
+      "name": "llm-wiki",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\research\\llm-wiki\\SKILL.md"
+    },
+    {
+      "name": "research-paper-writing",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\research\\research-paper-writing\\SKILL.md"
+    },
+    {
+      "name": "openhue",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\smart-home\\openhue\\SKILL.md"
+    },
+    {
+      "name": "xurl",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\social-media\\xurl\\SKILL.md"
+    },
+    {
+      "name": "dogfood",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\software-development\\dogfood\\SKILL.md"
+    },
+    {
+      "name": "hermes-agent-skill-authoring",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\software-development\\hermes-agent-skill-authoring\\SKILL.md"
+    },
+    {
+      "name": "inspecting-hermes-desktop-dom",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\software-development\\inspecting-hermes-desktop-dom\\SKILL.md"
+    },
+    {
+      "name": "node-inspect-debugger",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\software-development\\node-inspect-debugger\\SKILL.md"
+    },
+    {
+      "name": "plan",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\software-development\\plan\\SKILL.md"
+    },
+    {
+      "name": "python-debugpy",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\software-development\\python-debugpy\\SKILL.md"
+    },
+    {
+      "name": "requesting-code-review",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\software-development\\requesting-code-review\\SKILL.md"
+    },
+    {
+      "name": "simplify-code",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\software-development\\simplify-code\\SKILL.md"
+    },
+    {
+      "name": "spike",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\software-development\\spike\\SKILL.md"
+    },
+    {
+      "name": "systematic-debugging",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\software-development\\systematic-debugging\\SKILL.md"
+    },
+    {
+      "name": "test-driven-development",
+      "kind": "skill",
+      "source_family": "hermes-core-skills",
+      "project": "hermes-agent",
+      "relative_path": "hermes-agent\\skills\\software-development\\test-driven-development\\SKILL.md"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "agent-instructions",
+      "source_family": "agent-instructions",
+      "project": "impr-oliver-sation - Copy",
+      "relative_path": "impr-oliver-sation - Copy\\site\\AGENTS.md"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "agent-instructions",
+      "source_family": "agent-instructions",
+      "project": "impr-oliver-sation",
+      "relative_path": "impr-oliver-sation\\site\\AGENTS.md"
+    },
+    {
+      "name": "AI Integration.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\AI Integration.md"
+    },
+    {
+      "name": "API Reference.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\API Reference\\API Reference.md"
+    },
+    {
+      "name": "Local Translator Suite APIs.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\API Reference\\Local Translator Suite APIs.md"
+    },
+    {
+      "name": "Main Application APIs.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\API Reference\\Main Application APIs\\Main Application APIs.md"
+    },
+    {
+      "name": "Shared Endpoints and Utilities.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\API Reference\\Shared Endpoints and Utilities.md"
+    },
+    {
+      "name": "Batch Processing Configuration.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\Data Models and Storage\\Batch Processing Configuration.md"
+    },
+    {
+      "name": "Data Models and Storage.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\Data Models and Storage\\Data Models and Storage.md"
+    },
+    {
+      "name": "Dictionary Entry Schema.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\Data Models and Storage\\Dictionary Entry Schema.md"
+    },
+    {
+      "name": "Index Mapping System.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\Data Models and Storage\\Index Mapping System.md"
+    },
+    {
+      "name": "Deployment and Production.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\Deployment and Production.md"
+    },
+    {
+      "name": "Developer Guide.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\Developer Guide.md"
+    },
+    {
+      "name": "Dictionary Processing.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\Dictionary Processing\\Dictionary Processing.md"
+    },
+    {
+      "name": "KNU Font Decoding.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\Dictionary Processing\\KNU Font Decoding.md"
+    },
+    {
+      "name": "PDF Processing and Page Splitting.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\Dictionary Processing\\PDF Processing and Page Splitting.md"
+    },
+    {
+      "name": "Sorting Engine and Correction Logic.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\Dictionary Processing\\Sorting Engine and Correction Logic.md"
+    },
+    {
+      "name": "Getting Started.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\Getting Started.md"
+    },
+    {
+      "name": "Local Translator Suite.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\Local Translator Suite.md"
+    },
+    {
+      "name": "Model Training Pipeline.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\OCR Training Pipeline\\Model Training Pipeline\\Model Training Pipeline.md"
+    },
+    {
+      "name": "OCR Training Pipeline.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\OCR Training Pipeline\\OCR Training Pipeline.md"
+    },
+    {
+      "name": "Paragraph-Level Inference.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\OCR Training Pipeline\\Paragraph-Level Inference.md"
+    },
+    {
+      "name": "Synthetic Dataset Generation.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\OCR Training Pipeline\\Synthetic Dataset Generation.md"
+    },
+    {
+      "name": "Project Overview.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\Project Overview.md"
+    },
+    {
+      "name": "Core Components and Responsibilities.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\System Architecture\\Core Components and Responsibilities\\Core Components and Responsibilities.md"
+    },
+    {
+      "name": "Integration Patterns and External Services.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\System Architecture\\Integration Patterns and External Services.md"
+    },
+    {
+      "name": "Processing Pipeline Architecture.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\System Architecture\\Processing Pipeline Architecture.md"
+    },
+    {
+      "name": "System Architecture.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\System Architecture\\System Architecture.md"
+    },
+    {
+      "name": "System Overview and Data Flow.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\System Architecture\\System Overview and Data Flow.md"
+    },
+    {
+      "name": "Data Integrity Verification.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\Testing and Validation\\Data Integrity Verification.md"
+    },
+    {
+      "name": "Model Validation and Performance Metrics.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\Testing and Validation\\Model Validation and Performance Metrics.md"
+    },
+    {
+      "name": "Test Dataset Generation.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\Testing and Validation\\Test Dataset Generation.md"
+    },
+    {
+      "name": "Testing and Validation.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\Testing and Validation\\Testing and Validation.md"
+    },
+    {
+      "name": "Batch Processing System.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\Web Interface and Workbench\\Batch Processing System.md"
+    },
+    {
+      "name": "Dictionary Management Interface.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\Web Interface and Workbench\\Dictionary Management Interface.md"
+    },
+    {
+      "name": "Flask Application Architecture.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\Web Interface and Workbench\\Flask Application Architecture.md"
+    },
+    {
+      "name": "Web Interface and Workbench.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\content\\Web Interface and Workbench\\Web Interface and Workbench.md"
+    },
+    {
+      "name": "repowiki-metadata.json",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "karen-lang-trans",
+      "relative_path": "karen-lang-trans\\.qoder\\repowiki\\en\\meta\\repowiki-metadata.json"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "agent-instructions",
+      "source_family": "agent-instructions",
+      "project": "karen-language-agent",
+      "relative_path": "karen-language-agent\\AGENTS.md"
+    },
+    {
+      "name": "find-project-skills",
+      "kind": "skill",
+      "source_family": "codex-project-skills",
+      "project": "karen-scraper-web",
+      "relative_path": "karen-scraper-web\\.codex\\skills\\find-project-skills\\SKILL.md"
+    },
+    {
+      "name": "refine-messy-prompt",
+      "kind": "skill",
+      "source_family": "codex-project-skills",
+      "project": "karen-scraper-web",
+      "relative_path": "karen-scraper-web\\.codex\\skills\\refine-messy-prompt\\SKILL.md"
+    },
+    {
+      "name": "sgaw-ground-truth",
+      "kind": "skill",
+      "source_family": "codex-project-skills",
+      "project": "karen-scraper-web",
+      "relative_path": "karen-scraper-web\\.codex\\skills\\sgaw-ground-truth\\SKILL.md"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "agent-instructions",
+      "source_family": "agent-instructions",
+      "project": "karen-scraper-web",
+      "relative_path": "karen-scraper-web\\AGENTS.md"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "agent-instructions",
+      "source_family": "agent-instructions",
+      "project": "karen-scraper-web",
+      "relative_path": "karen-scraper-web\\karen-dict-scrape\\AGENTS.md"
+    },
+    {
+      "name": "sgaw-ground-truth",
+      "kind": "skill",
+      "source_family": "project-skills",
+      "project": "karen-scraper-web",
+      "relative_path": "karen-scraper-web\\plugins\\sgaw-ground-truth\\skills\\sgaw-ground-truth\\SKILL.md"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "agent-instructions",
+      "source_family": "agent-instructions",
+      "project": "koa-url-clone",
+      "relative_path": "koa-url-clone\\AGENTS.md"
+    },
+    {
+      "name": "cinematic-scroll-ui",
+      "kind": "skill",
+      "source_family": "claude-compatible-skills",
+      "project": "koa-website-sites-publish-20260904-153159",
+      "relative_path": "koa-website-sites-publish-20260904-153159\\.claude\\skills\\cinematic-scroll-ui\\SKILL.md"
+    },
+    {
+      "name": "koa-frame-story-spec",
+      "kind": "skill",
+      "source_family": "project-skills",
+      "project": "koa-website-sites-publish-20260904-153159",
+      "relative_path": "koa-website-sites-publish-20260904-153159\\skills\\koa-frame-story-spec\\SKILL.md"
+    },
+    {
+      "name": "koa-mobile-preview",
+      "kind": "skill",
+      "source_family": "project-skills",
+      "project": "koa-website-sites-publish-20260904-153159",
+      "relative_path": "koa-website-sites-publish-20260904-153159\\skills\\koa-mobile-preview\\SKILL.md"
+    },
+    {
+      "name": "koa-translation-mapper",
+      "kind": "skill",
+      "source_family": "project-skills",
+      "project": "koa-website-sites-publish-20260904-153159",
+      "relative_path": "koa-website-sites-publish-20260904-153159\\skills\\koa-translation-mapper\\SKILL.md"
+    },
+    {
+      "name": "mission-led-motion-ui",
+      "kind": "skill",
+      "source_family": "project-skills",
+      "project": "koa-website-sites-publish-20260904-153159",
+      "relative_path": "koa-website-sites-publish-20260904-153159\\skills\\mission-led-motion-ui\\SKILL.md"
+    },
+    {
+      "name": "repo-understanding-sync",
+      "kind": "skill",
+      "source_family": "project-skills",
+      "project": "koa-website-sites-publish-20260904-153159",
+      "relative_path": "koa-website-sites-publish-20260904-153159\\skills\\repo-understanding-sync\\SKILL.md"
+    },
+    {
+      "name": "cinematic-scroll-ui",
+      "kind": "skill",
+      "source_family": "claude-compatible-skills",
+      "project": "koa-website-sites-publish-lite-20260904-162630",
+      "relative_path": "koa-website-sites-publish-lite-20260904-162630\\.claude\\skills\\cinematic-scroll-ui\\SKILL.md"
+    },
+    {
+      "name": "koa-frame-story-spec",
+      "kind": "skill",
+      "source_family": "project-skills",
+      "project": "koa-website-sites-publish-lite-20260904-162630",
+      "relative_path": "koa-website-sites-publish-lite-20260904-162630\\skills\\koa-frame-story-spec\\SKILL.md"
+    },
+    {
+      "name": "koa-mobile-preview",
+      "kind": "skill",
+      "source_family": "project-skills",
+      "project": "koa-website-sites-publish-lite-20260904-162630",
+      "relative_path": "koa-website-sites-publish-lite-20260904-162630\\skills\\koa-mobile-preview\\SKILL.md"
+    },
+    {
+      "name": "koa-translation-mapper",
+      "kind": "skill",
+      "source_family": "project-skills",
+      "project": "koa-website-sites-publish-lite-20260904-162630",
+      "relative_path": "koa-website-sites-publish-lite-20260904-162630\\skills\\koa-translation-mapper\\SKILL.md"
+    },
+    {
+      "name": "mission-led-motion-ui",
+      "kind": "skill",
+      "source_family": "project-skills",
+      "project": "koa-website-sites-publish-lite-20260904-162630",
+      "relative_path": "koa-website-sites-publish-lite-20260904-162630\\skills\\mission-led-motion-ui\\SKILL.md"
+    },
+    {
+      "name": "repo-understanding-sync",
+      "kind": "skill",
+      "source_family": "project-skills",
+      "project": "koa-website-sites-publish-lite-20260904-162630",
+      "relative_path": "koa-website-sites-publish-lite-20260904-162630\\skills\\repo-understanding-sync\\SKILL.md"
+    },
+    {
+      "name": "cinematic-scroll-ui",
+      "kind": "skill",
+      "source_family": "claude-compatible-skills",
+      "project": "koa-website-sites-publish-min-20260904-161735",
+      "relative_path": "koa-website-sites-publish-min-20260904-161735\\.claude\\skills\\cinematic-scroll-ui\\SKILL.md"
+    },
+    {
+      "name": "koa-frame-story-spec",
+      "kind": "skill",
+      "source_family": "project-skills",
+      "project": "koa-website-sites-publish-min-20260904-161735",
+      "relative_path": "koa-website-sites-publish-min-20260904-161735\\skills\\koa-frame-story-spec\\SKILL.md"
+    },
+    {
+      "name": "koa-mobile-preview",
+      "kind": "skill",
+      "source_family": "project-skills",
+      "project": "koa-website-sites-publish-min-20260904-161735",
+      "relative_path": "koa-website-sites-publish-min-20260904-161735\\skills\\koa-mobile-preview\\SKILL.md"
+    },
+    {
+      "name": "koa-translation-mapper",
+      "kind": "skill",
+      "source_family": "project-skills",
+      "project": "koa-website-sites-publish-min-20260904-161735",
+      "relative_path": "koa-website-sites-publish-min-20260904-161735\\skills\\koa-translation-mapper\\SKILL.md"
+    },
+    {
+      "name": "mission-led-motion-ui",
+      "kind": "skill",
+      "source_family": "project-skills",
+      "project": "koa-website-sites-publish-min-20260904-161735",
+      "relative_path": "koa-website-sites-publish-min-20260904-161735\\skills\\mission-led-motion-ui\\SKILL.md"
+    },
+    {
+      "name": "repo-understanding-sync",
+      "kind": "skill",
+      "source_family": "project-skills",
+      "project": "koa-website-sites-publish-min-20260904-161735",
+      "relative_path": "koa-website-sites-publish-min-20260904-161735\\skills\\repo-understanding-sync\\SKILL.md"
+    },
+    {
+      "name": "cinematic-scroll-ui",
+      "kind": "skill",
+      "source_family": "claude-compatible-skills",
+      "project": "koa-website",
+      "relative_path": "koa-website\\.claude\\skills\\cinematic-scroll-ui\\SKILL.md"
+    },
+    {
+      "name": "koa-frame-story-spec",
+      "kind": "skill",
+      "source_family": "project-skills",
+      "project": "koa-website",
+      "relative_path": "koa-website\\skills\\koa-frame-story-spec\\SKILL.md"
+    },
+    {
+      "name": "koa-mobile-preview",
+      "kind": "skill",
+      "source_family": "project-skills",
+      "project": "koa-website",
+      "relative_path": "koa-website\\skills\\koa-mobile-preview\\SKILL.md"
+    },
+    {
+      "name": "koa-translation-mapper",
+      "kind": "skill",
+      "source_family": "project-skills",
+      "project": "koa-website",
+      "relative_path": "koa-website\\skills\\koa-translation-mapper\\SKILL.md"
+    },
+    {
+      "name": "mission-led-motion-ui",
+      "kind": "skill",
+      "source_family": "project-skills",
+      "project": "koa-website",
+      "relative_path": "koa-website\\skills\\mission-led-motion-ui\\SKILL.md"
+    },
+    {
+      "name": "repo-understanding-sync",
+      "kind": "skill",
+      "source_family": "project-skills",
+      "project": "koa-website",
+      "relative_path": "koa-website\\skills\\repo-understanding-sync\\SKILL.md"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "agent-instructions",
+      "source_family": "agent-instructions",
+      "project": "money_AI_automate",
+      "relative_path": "money_AI_automate\\auto_automate\\AGENTS.md"
+    },
+    {
+      "name": "lead-ops-console",
+      "kind": "skill",
+      "source_family": "project-skills",
+      "project": "money_AI_automate",
+      "relative_path": "money_AI_automate\\lead-gen-scrape\\plugins\\lead-ops-console\\skills\\lead-ops-console\\SKILL.md"
+    },
+    {
+      "name": "agent-browser",
+      "kind": "skill",
+      "source_family": "agents-project-skills",
+      "project": "music_director_database",
+      "relative_path": "music_director_database\\.agents\\skills\\agent-browser\\SKILL.md"
+    },
+    {
+      "name": "find-skills",
+      "kind": "skill",
+      "source_family": "agents-project-skills",
+      "project": "music_director_database",
+      "relative_path": "music_director_database\\.agents\\skills\\find-skills\\SKILL.md"
+    },
+    {
+      "name": "frontend-design",
+      "kind": "skill",
+      "source_family": "agents-project-skills",
+      "project": "music_director_database",
+      "relative_path": "music_director_database\\.agents\\skills\\frontend-design\\SKILL.md"
+    },
+    {
+      "name": "grill-me",
+      "kind": "skill",
+      "source_family": "agents-project-skills",
+      "project": "music_director_database",
+      "relative_path": "music_director_database\\.agents\\skills\\grill-me\\SKILL.md"
+    },
+    {
+      "name": "grill-with-docs",
+      "kind": "skill",
+      "source_family": "agents-project-skills",
+      "project": "music_director_database",
+      "relative_path": "music_director_database\\.agents\\skills\\grill-with-docs\\SKILL.md"
+    },
+    {
+      "name": "improve-codebase-architecture",
+      "kind": "skill",
+      "source_family": "agents-project-skills",
+      "project": "music_director_database",
+      "relative_path": "music_director_database\\.agents\\skills\\improve-codebase-architecture\\SKILL.md"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "agent-instructions",
+      "source_family": "agents-project-skills",
+      "project": "music_director_database",
+      "relative_path": "music_director_database\\.agents\\skills\\vercel-react-best-practices\\AGENTS.md"
+    },
+    {
+      "name": "vercel-react-best-practices",
+      "kind": "skill",
+      "source_family": "agents-project-skills",
+      "project": "music_director_database",
+      "relative_path": "music_director_database\\.agents\\skills\\vercel-react-best-practices\\SKILL.md"
+    },
+    {
+      "name": "web-design-guidelines",
+      "kind": "skill",
+      "source_family": "agents-project-skills",
+      "project": "music_director_database",
+      "relative_path": "music_director_database\\.agents\\skills\\web-design-guidelines\\SKILL.md"
+    },
+    {
+      "name": "karen-music-ui",
+      "kind": "skill",
+      "source_family": "codex-project-skills",
+      "project": "music_director_database",
+      "relative_path": "music_director_database\\karen_music_director\\.codex\\skills\\karen-music-ui\\SKILL.md"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "agent-instructions",
+      "source_family": "agent-instructions",
+      "project": "music_director_database",
+      "relative_path": "music_director_database\\karen_music_director\\AGENTS.md"
+    },
+    {
+      "name": "karen-music-editor-ui-reference",
+      "kind": "skill",
+      "source_family": "agents-project-skills",
+      "project": "music_director_database",
+      "relative_path": "music_director_database\\karen_music_website\\.agents\\skills\\karen-music-editor-ui-reference\\SKILL.md"
+    },
+    {
+      "name": "karen-music-motion-system",
+      "kind": "skill",
+      "source_family": "agents-project-skills",
+      "project": "music_director_database",
+      "relative_path": "music_director_database\\karen_music_website\\.agents\\skills\\karen-music-motion-system\\SKILL.md"
+    },
+    {
+      "name": "karen-music-phase-pass",
+      "kind": "skill",
+      "source_family": "agents-project-skills",
+      "project": "music_director_database",
+      "relative_path": "music_director_database\\karen_music_website\\.agents\\skills\\karen-music-phase-pass\\SKILL.md"
+    },
+    {
+      "name": "karen-music-song-making-rules",
+      "kind": "skill",
+      "source_family": "agents-project-skills",
+      "project": "music_director_database",
+      "relative_path": "music_director_database\\karen_music_website\\.agents\\skills\\karen-music-song-making-rules\\SKILL.md"
+    },
+    {
+      "name": "karen-music-ui-guardian",
+      "kind": "skill",
+      "source_family": "agents-project-skills",
+      "project": "music_director_database",
+      "relative_path": "music_director_database\\karen_music_website\\.agents\\skills\\karen-music-ui-guardian\\SKILL.md"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "agent-instructions",
+      "source_family": "agent-instructions",
+      "project": "music_director_database",
+      "relative_path": "music_director_database\\karen_music_website\\AGENTS.md"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "agent-instructions",
+      "source_family": "agent-instructions",
+      "project": "music_director_database",
+      "relative_path": "music_director_database\\karen-music-website-codex\\update-printout-formatting-per-new-specs\\AGENTS.md"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "agent-instructions",
+      "source_family": "agent-instructions",
+      "project": "music_director_database",
+      "relative_path": "music_director_database\\karen-music-website\\AGENTS.md"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "agent-instructions",
+      "source_family": "agent-instructions",
+      "project": "portfolio_hub",
+      "relative_path": "portfolio_hub\\portfolio_website_music\\AGENTS.md"
+    },
+    {
+      "name": "sync-ai-career-hub",
+      "kind": "skill",
+      "source_family": "project-skills",
+      "project": "portfolio_hub",
+      "relative_path": "portfolio_hub\\portfolio_website_tech\\plugins\\ai-career-hub\\skills\\sync-ai-career-hub\\SKILL.md"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "agent-instructions",
+      "source_family": "agent-instructions",
+      "project": "portfolio_hub",
+      "relative_path": "portfolio_hub\\prompt-refinery\\AGENTS.md"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "agent-instructions",
+      "source_family": "agent-instructions",
+      "project": "portfolio_hub",
+      "relative_path": "portfolio_hub\\prompt-refinery\\prompt-library\\projects\\a-loud-reader\\AGENTS.md"
+    },
+    {
+      "name": "portfolio-ops-orchestrator",
+      "kind": "skill",
+      "source_family": "project-skills",
+      "project": "portfolio-ops-orchestrator",
+      "relative_path": "portfolio-ops-orchestrator\\plugins\\portfolio-ops-orchestrator\\skills\\portfolio-ops-orchestrator\\SKILL.md"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "agent-instructions",
+      "source_family": "agent-instructions",
+      "project": "prompt-refinery",
+      "relative_path": "prompt-refinery\\AGENTS.md"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "agent-instructions",
+      "source_family": "agent-instructions",
+      "project": "prompt-refinery",
+      "relative_path": "prompt-refinery\\prompt_library\\AGENTS.md"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "agent-instructions",
+      "source_family": "agent-instructions",
+      "project": "prompt-refinery",
+      "relative_path": "prompt-refinery\\prompt-library\\AGENTS.md"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "agent-instructions",
+      "source_family": "agent-instructions",
+      "project": "prompt-refinery",
+      "relative_path": "prompt-refinery\\prompt-library\\projects\\a-loud-reader\\AGENTS.md"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "agent-instructions",
+      "source_family": "agent-instructions",
+      "project": "prompt-refinery",
+      "relative_path": "prompt-refinery\\prompt-library\\projects\\prompt-refinery\\AGENTS.md"
+    },
+    {
+      "name": "apple-design",
+      "kind": "skill",
+      "source_family": "agents-project-skills",
+      "project": "react-bits",
+      "relative_path": "react-bits\\AGENTS\\SKILLS\\apple-design\\SKILL.md"
+    },
+    {
+      "name": "find-animation-opportunities",
+      "kind": "skill",
+      "source_family": "agents-project-skills",
+      "project": "react-bits",
+      "relative_path": "react-bits\\AGENTS\\SKILLS\\find-animation-opportunities\\SKILL.md"
+    },
+    {
+      "name": "improve-animations",
+      "kind": "skill",
+      "source_family": "agents-project-skills",
+      "project": "react-bits",
+      "relative_path": "react-bits\\AGENTS\\SKILLS\\improve-animations\\SKILL.md"
+    },
+    {
+      "name": "review-animations",
+      "kind": "skill",
+      "source_family": "agents-project-skills",
+      "project": "react-bits",
+      "relative_path": "react-bits\\AGENTS\\SKILLS\\review-animations\\SKILL.md"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "agent-instructions",
+      "source_family": "agent-instructions",
+      "project": "skills-hub",
+      "relative_path": "skills-hub\\AGENTS.md"
+    },
+    {
+      "name": "CLAUDE.md",
+      "kind": "claude-instructions",
+      "source_family": "claude-instructions",
+      "project": "skills-hub",
+      "relative_path": "skills-hub\\CLAUDE.md"
+    },
+    {
+      "name": "repowiki-metadata.json",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "sons_of_kawthoolei",
+      "relative_path": "sons_of_kawthoolei\\.qoder\\repowiki\\en\\meta\\repowiki-metadata.json"
+    },
+    {
+      "name": "_index.yaml",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "sons_of_kawthoolei",
+      "relative_path": "sons_of_kawthoolei\\.qoder\\repowiki\\knowledge\\en\\_index.yaml"
+    },
+    {
+      "name": "Dual Styling System Tailwind CSS 4 + Hand-Crafted CSS Mockups.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "sons_of_kawthoolei",
+      "relative_path": "sons_of_kawthoolei\\.qoder\\repowiki\\knowledge\\en\\Dual Styling System Tailwind CSS 4 + Hand-Crafted CSS Mockups\\Dual Styling System Tailwind CSS 4 + Hand-Crafted CSS Mockups.md"
+    },
+    {
+      "name": "Error Handling in Next.js on Cloudflare Workers.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "sons_of_kawthoolei",
+      "relative_path": "sons_of_kawthoolei\\.qoder\\repowiki\\knowledge\\en\\Error Handling in Next.js on Cloudflare Workers\\Error Handling in Next.js on Cloudflare Workers.md"
+    },
+    {
+      "name": "npm-based dependency management with lockfiles and pinned versions.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "sons_of_kawthoolei",
+      "relative_path": "sons_of_kawthoolei\\.qoder\\repowiki\\knowledge\\en\\npm-based dependency management with lockfiles and pinned versions\\npm-based dependency management with lockfiles and pinned versions.md"
+    },
+    {
+      "name": "_module.yaml",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "sons_of_kawthoolei",
+      "relative_path": "sons_of_kawthoolei\\.qoder\\repowiki\\knowledge\\en\\Project Root & Metadata\\_module.yaml"
+    },
+    {
+      "name": "architecture_design.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "sons_of_kawthoolei",
+      "relative_path": "sons_of_kawthoolei\\.qoder\\repowiki\\knowledge\\en\\Project Root & Metadata\\architecture_design.md"
+    },
+    {
+      "name": "overview.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "sons_of_kawthoolei",
+      "relative_path": "sons_of_kawthoolei\\.qoder\\repowiki\\knowledge\\en\\Project Root & Metadata\\overview.md"
+    },
+    {
+      "name": "tech_stack.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "sons_of_kawthoolei",
+      "relative_path": "sons_of_kawthoolei\\.qoder\\repowiki\\knowledge\\en\\Project Root & Metadata\\tech_stack.md"
+    },
+    {
+      "name": "unique_setup_and_commands.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "sons_of_kawthoolei",
+      "relative_path": "sons_of_kawthoolei\\.qoder\\repowiki\\knowledge\\en\\Project Root & Metadata\\unique_setup_and_commands.md"
+    },
+    {
+      "name": "Vite + Vinext + Cloudflare Workers build & deploy pipeline.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "sons_of_kawthoolei",
+      "relative_path": "sons_of_kawthoolei\\.qoder\\repowiki\\knowledge\\en\\Vite + Vinext + Cloudflare Workers build & deploy pipeline\\Vite + Vinext + Cloudflare Workers build & deploy pipeline.md"
+    },
+    {
+      "name": "Vite_Next + Cloudflare Worker Configuration via JSON and .env Files.md",
+      "kind": "qoder-context",
+      "source_family": "qoder",
+      "project": "sons_of_kawthoolei",
+      "relative_path": "sons_of_kawthoolei\\.qoder\\repowiki\\knowledge\\en\\Vite_Next + Cloudflare Worker Configuration via JSON and .env Files\\Vite_Next + Cloudflare Worker Configuration via JSON and .env Files.md"
+    },
+    {
+      "name": "koa-brand-asset-review",
+      "kind": "skill",
+      "source_family": "agents-project-skills",
+      "project": "sons_of_kawthoolei",
+      "relative_path": "sons_of_kawthoolei\\KOA\\.agents\\skills\\koa-brand-asset-review\\SKILL.md"
+    },
+    {
+      "name": "AGENTS.md",
+      "kind": "agent-instructions",
+      "source_family": "agent-instructions",
+      "project": "yt_auto",
+      "relative_path": "yt_auto\\AGENTS.md"
+    }
+  ]
+}

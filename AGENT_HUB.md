@@ -1,6 +1,6 @@
 # Oliver Payton — Agent Context Hub
 
-**Last Updated:** 2026-08-19  
+**Last Updated:** 2026-09-04  
 **Purpose:** Central reference for any AI agent working with/for Oliver Payton.  
 **Canonical Location:** `https://github.com/otpayt02/agent-hub` (this repo)  
 **Local Path:** `~/agent-hub/` (symlinked to this repo)
@@ -118,6 +118,8 @@ For voice: speak freely, end with → *"Normalize what I just said into this str
 | `SPEC.md` | `sentiment-life/SPEC.md` | Cinematic website contract |
 | `index.html` | `sentiment-life/index.html` | Live artifact + data |
 | `AGENTS.md` | This file | You are here |
+| `AGENT_CONTEXT.md` | `agent-skill-context/AGENT_CONTEXT.md` | Master cross-agent skill routing and sync boundaries |
+| `SKILLS_INDEX.md` | `agent-skill-context/SKILLS_INDEX.md` | Generated index of local Codex, Hermes, Qoder, and project agent skills |
 | `MEMORY_BUNDLE.json` | `sentiment-life/` (exported) | Full portable state |
 | `CLAUDE.md` / `AGENTS.md` | Repo roots | Per-project instructions |
 
