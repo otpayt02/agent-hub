@@ -1,385 +1,857 @@
 # Agent Skill Index
 
-Generated: 2026-09-05T15:36:08.628Z
+Generated: 2026-09-06T20:32:52.019Z
 
-Projects root: `%USERPROFILE%\Projects`
+Primary projects root: `%USERPROFILE%\Projects`
+
+Scanned roots:
+
+- `%USERPROFILE%\Projects`
+- `%USERPROFILE%\.agents`
+- `%USERPROFILE%\.codex\skills`
+- `%USERPROFILE%\.codex\plugins\cache`
+- `%USERPROFILE%\.codex\vendor_imports`
+- `%USERPROFILE%\.skillshub`
+- `%USERPROFILE%\.qoder`
+- `%USERPROFILE%\.hermes`
+- `%USERPROFILE%\.perplexity-mcp`
+- `%USERPROFILE%\GitNexus`
+- `%USERPROFILE%\maka-gitnexus-integration`
+- `%USERPROFILE%\Documents\GitHub`
 
 This index is generated from local agent-facing files. It intentionally excludes dependency folders and build output.
 
 ## agent-instructions
 
-- `AGENTS.md` [agent-instructions] in `a-loud-reader` -> `a-loud-reader\AGENTS.md`
-- `AGENTS.md` [agent-instructions] in `ai_eng_skill_map` -> `ai_eng_skill_map\firecrawl\AGENTS.md`
-- `AGENTS.md` [agent-instructions] in `ai-free-update-scrape` -> `ai-free-update-scrape\sites\ai-free-update-scrape\AGENTS.md`
-- `AGENTS.md` [agent-instructions] in `chin-lone-ai` -> `chin-lone-ai\AGENTS.md`
-- `AGENTS.md` [agent-instructions] in `freelance-offer-studio` -> `freelance-offer-studio\AGENTS.md`
-- `AGENTS.md` [agent-instructions] in `hermes-agent` -> `hermes-agent\AGENTS.md`
-- `AGENTS.md` [agent-instructions] in `hermes-agent` -> `hermes-agent\apps\desktop\AGENTS.md`
-- `AGENTS.md` [agent-instructions] in `impr-oliver-sation - Copy` -> `impr-oliver-sation - Copy\site\AGENTS.md`
-- `AGENTS.md` [agent-instructions] in `impr-oliver-sation` -> `impr-oliver-sation\site\AGENTS.md`
-- `AGENTS.md` [agent-instructions] in `karen-language-agent` -> `karen-language-agent\AGENTS.md`
-- `AGENTS.md` [agent-instructions] in `karen-scraper-web` -> `karen-scraper-web\AGENTS.md`
-- `AGENTS.md` [agent-instructions] in `karen-scraper-web` -> `karen-scraper-web\karen-dict-scrape\AGENTS.md`
-- `AGENTS.md` [agent-instructions] in `koa-url-clone` -> `koa-url-clone\AGENTS.md`
-- `AGENTS.md` [agent-instructions] in `money_AI_automate` -> `money_AI_automate\auto_automate\AGENTS.md`
-- `AGENTS.md` [agent-instructions] in `music_director_database` -> `music_director_database\karen_music_director\AGENTS.md`
-- `AGENTS.md` [agent-instructions] in `music_director_database` -> `music_director_database\karen_music_website\AGENTS.md`
-- `AGENTS.md` [agent-instructions] in `music_director_database` -> `music_director_database\karen-music-website-codex\update-printout-formatting-per-new-specs\AGENTS.md`
-- `AGENTS.md` [agent-instructions] in `music_director_database` -> `music_director_database\karen-music-website\AGENTS.md`
-- `AGENTS.md` [agent-instructions] in `portfolio_hub` -> `portfolio_hub\portfolio_website_music\AGENTS.md`
-- `AGENTS.md` [agent-instructions] in `portfolio_hub` -> `portfolio_hub\prompt-refinery\AGENTS.md`
-- `AGENTS.md` [agent-instructions] in `portfolio_hub` -> `portfolio_hub\prompt-refinery\prompt-library\projects\a-loud-reader\AGENTS.md`
-- `AGENTS.md` [agent-instructions] in `prompt-refinery` -> `prompt-refinery\AGENTS.md`
-- `AGENTS.md` [agent-instructions] in `prompt-refinery` -> `prompt-refinery\prompt_library\AGENTS.md`
-- `AGENTS.md` [agent-instructions] in `prompt-refinery` -> `prompt-refinery\prompt-library\AGENTS.md`
-- `AGENTS.md` [agent-instructions] in `prompt-refinery` -> `prompt-refinery\prompt-library\projects\a-loud-reader\AGENTS.md`
-- `AGENTS.md` [agent-instructions] in `prompt-refinery` -> `prompt-refinery\prompt-library\projects\prompt-refinery\AGENTS.md`
-- `AGENTS.md` [agent-instructions] in `skills-hub` -> `skills-hub\AGENTS.md`
-- `AGENTS.md` [agent-instructions] in `yt_auto` -> `yt_auto\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `a-loud-reader` from `%USERPROFILE%\Projects` -> `a-loud-reader\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `AGENTS.md` from `%USERPROFILE%\maka-gitnexus-integration` -> `AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `ai_eng_skill_map` from `%USERPROFILE%\Projects` -> `ai_eng_skill_map\firecrawl\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `ai-free-update-scrape` from `%USERPROFILE%\Projects` -> `ai-free-update-scrape\sites\ai-free-update-scrape\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `chin-lone-ai` from `%USERPROFILE%\Projects` -> `chin-lone-ai\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `freelance-offer-studio` from `%USERPROFILE%\Projects` -> `freelance-offer-studio\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\karen-lang-trans\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\karen-music-website\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\karen-scraper-web\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\S-gaw-Karen-AI-ML-OCR-Language-Recognition\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\S-gaw-Karen-Dictionary-Builder\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\sentiment-life\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\apps\desktop\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `impr-oliver-sation` from `%USERPROFILE%\Projects` -> `impr-oliver-sation\site\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `karen-language-agent` from `%USERPROFILE%\Projects` -> `karen-language-agent\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `karen-music` from `%USERPROFILE%\Documents\GitHub` -> `karen-music\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `karen-scraper-web` from `%USERPROFILE%\Projects` -> `karen-scraper-web\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `karen-scraper-web` from `%USERPROFILE%\Projects` -> `karen-scraper-web\karen-dict-scrape\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `koa-url-clone` from `%USERPROFILE%\Projects` -> `koa-url-clone\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `maka` from `%USERPROFILE%\Projects` -> `maka\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `money_AI_automate` from `%USERPROFILE%\Projects` -> `money_AI_automate\auto_automate\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `music_director_database` from `%USERPROFILE%\Projects` -> `music_director_database\karen_music_director\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `music_director_database` from `%USERPROFILE%\Projects` -> `music_director_database\karen_music_website\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `music_director_database` from `%USERPROFILE%\Projects` -> `music_director_database\karen-music-website-codex\update-printout-formatting-per-new-specs\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `music_director_database` from `%USERPROFILE%\Projects` -> `music_director_database\karen-music-website\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `portfolio_hub` from `%USERPROFILE%\Projects` -> `portfolio_hub\portfolio_website_music\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `portfolio_hub` from `%USERPROFILE%\Projects` -> `portfolio_hub\prompt-refinery\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `portfolio_hub` from `%USERPROFILE%\Projects` -> `portfolio_hub\prompt-refinery\prompt-library\projects\a-loud-reader\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `prompt-refinery` from `%USERPROFILE%\Projects` -> `prompt-refinery\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `prompt-refinery` from `%USERPROFILE%\Projects` -> `prompt-refinery\prompt_library\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `prompt-refinery` from `%USERPROFILE%\Projects` -> `prompt-refinery\prompt-library\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `prompt-refinery` from `%USERPROFILE%\Projects` -> `prompt-refinery\prompt-library\projects\a-loud-reader\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `prompt-refinery` from `%USERPROFILE%\Projects` -> `prompt-refinery\prompt-library\projects\prompt-refinery\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `skills-hub` from `%USERPROFILE%\Projects` -> `skills-hub\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `yt_auto` from `%USERPROFILE%\Projects` -> `yt_auto\AGENTS.md`
 
 ## agents-project-skills
 
-- `find-skills` [skill] in `.agents` -> `.agents\skills\find-skills\SKILL.md`
-- `magicpath` [skill] in `ai-free-update-scrape` -> `ai-free-update-scrape\.agents\skills\magicpath\SKILL.md`
-- `thread-context-docs` [skill] in `ai-free-update-scrape` -> `ai-free-update-scrape\.agents\skills\thread-context-docs\SKILL.md`
-- `agent-browser` [skill] in `music_director_database` -> `music_director_database\.agents\skills\agent-browser\SKILL.md`
-- `AGENTS.md` [agent-instructions] in `music_director_database` -> `music_director_database\.agents\skills\vercel-react-best-practices\AGENTS.md`
-- `find-skills` [skill] in `music_director_database` -> `music_director_database\.agents\skills\find-skills\SKILL.md`
-- `frontend-design` [skill] in `music_director_database` -> `music_director_database\.agents\skills\frontend-design\SKILL.md`
-- `grill-me` [skill] in `music_director_database` -> `music_director_database\.agents\skills\grill-me\SKILL.md`
-- `grill-with-docs` [skill] in `music_director_database` -> `music_director_database\.agents\skills\grill-with-docs\SKILL.md`
-- `improve-codebase-architecture` [skill] in `music_director_database` -> `music_director_database\.agents\skills\improve-codebase-architecture\SKILL.md`
-- `karen-music-editor-ui-reference` [skill] in `music_director_database` -> `music_director_database\karen_music_website\.agents\skills\karen-music-editor-ui-reference\SKILL.md`
-- `karen-music-motion-system` [skill] in `music_director_database` -> `music_director_database\karen_music_website\.agents\skills\karen-music-motion-system\SKILL.md`
-- `karen-music-phase-pass` [skill] in `music_director_database` -> `music_director_database\karen_music_website\.agents\skills\karen-music-phase-pass\SKILL.md`
-- `karen-music-song-making-rules` [skill] in `music_director_database` -> `music_director_database\karen_music_website\.agents\skills\karen-music-song-making-rules\SKILL.md`
-- `karen-music-ui-guardian` [skill] in `music_director_database` -> `music_director_database\karen_music_website\.agents\skills\karen-music-ui-guardian\SKILL.md`
-- `vercel-react-best-practices` [skill] in `music_director_database` -> `music_director_database\.agents\skills\vercel-react-best-practices\SKILL.md`
-- `web-design-guidelines` [skill] in `music_director_database` -> `music_director_database\.agents\skills\web-design-guidelines\SKILL.md`
-- `apple-design` [skill] in `react-bits` -> `react-bits\AGENTS\SKILLS\apple-design\SKILL.md`
-- `find-animation-opportunities` [skill] in `react-bits` -> `react-bits\AGENTS\SKILLS\find-animation-opportunities\SKILL.md`
-- `improve-animations` [skill] in `react-bits` -> `react-bits\AGENTS\SKILLS\improve-animations\SKILL.md`
-- `review-animations` [skill] in `react-bits` -> `react-bits\AGENTS\SKILLS\review-animations\SKILL.md`
-- `koa-brand-asset-review` [skill] in `sons_of_kawthoolei` -> `sons_of_kawthoolei\KOA\.agents\skills\koa-brand-asset-review\SKILL.md`
+- `find-skills` [skill] in `.agents` from `%USERPROFILE%\Projects` -> `.agents\skills\find-skills\SKILL.md`
+- `magicpath` [skill] in `ai-free-update-scrape` from `%USERPROFILE%\Projects` -> `ai-free-update-scrape\.agents\skills\magicpath\SKILL.md`
+- `thread-context-docs` [skill] in `ai-free-update-scrape` from `%USERPROFILE%\Projects` -> `ai-free-update-scrape\.agents\skills\thread-context-docs\SKILL.md`
+- `gitnexus-cli` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\karen-music-website\.agents\skills\gitnexus-cli\SKILL.md`
+- `gitnexus-debugging` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\karen-music-website\.agents\skills\gitnexus-debugging\SKILL.md`
+- `gitnexus-exploring` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\karen-music-website\.agents\skills\gitnexus-exploring\SKILL.md`
+- `gitnexus-guide` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\karen-music-website\.agents\skills\gitnexus-guide\SKILL.md`
+- `gitnexus-impact-analysis` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\karen-music-website\.agents\skills\gitnexus-impact-analysis\SKILL.md`
+- `gitnexus-refactoring` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\karen-music-website\.agents\skills\gitnexus-refactoring\SKILL.md`
+- `karen-music-editor-ui-reference` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\karen-music-website\.agents\skills\karen-music-editor-ui-reference\SKILL.md`
+- `karen-music-song-making-rules` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\karen-music-website\.agents\skills\karen-music-song-making-rules\SKILL.md`
+- `karen-music-ui-guardian` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\karen-music-website\.agents\skills\karen-music-ui-guardian\SKILL.md`
+- `agent-browser` [skill] in `music_director_database` from `%USERPROFILE%\Projects` -> `music_director_database\.agents\skills\agent-browser\SKILL.md`
+- `AGENTS.md` [agent-instructions] in `music_director_database` from `%USERPROFILE%\Projects` -> `music_director_database\.agents\skills\vercel-react-best-practices\AGENTS.md`
+- `find-skills` [skill] in `music_director_database` from `%USERPROFILE%\Projects` -> `music_director_database\.agents\skills\find-skills\SKILL.md`
+- `frontend-design` [skill] in `music_director_database` from `%USERPROFILE%\Projects` -> `music_director_database\.agents\skills\frontend-design\SKILL.md`
+- `grill-me` [skill] in `music_director_database` from `%USERPROFILE%\Projects` -> `music_director_database\.agents\skills\grill-me\SKILL.md`
+- `grill-with-docs` [skill] in `music_director_database` from `%USERPROFILE%\Projects` -> `music_director_database\.agents\skills\grill-with-docs\SKILL.md`
+- `improve-codebase-architecture` [skill] in `music_director_database` from `%USERPROFILE%\Projects` -> `music_director_database\.agents\skills\improve-codebase-architecture\SKILL.md`
+- `karen-music-editor-ui-reference` [skill] in `music_director_database` from `%USERPROFILE%\Projects` -> `music_director_database\karen_music_website\.agents\skills\karen-music-editor-ui-reference\SKILL.md`
+- `karen-music-motion-system` [skill] in `music_director_database` from `%USERPROFILE%\Projects` -> `music_director_database\karen_music_website\.agents\skills\karen-music-motion-system\SKILL.md`
+- `karen-music-phase-pass` [skill] in `music_director_database` from `%USERPROFILE%\Projects` -> `music_director_database\karen_music_website\.agents\skills\karen-music-phase-pass\SKILL.md`
+- `karen-music-song-making-rules` [skill] in `music_director_database` from `%USERPROFILE%\Projects` -> `music_director_database\karen_music_website\.agents\skills\karen-music-song-making-rules\SKILL.md`
+- `karen-music-ui-guardian` [skill] in `music_director_database` from `%USERPROFILE%\Projects` -> `music_director_database\karen_music_website\.agents\skills\karen-music-ui-guardian\SKILL.md`
+- `vercel-react-best-practices` [skill] in `music_director_database` from `%USERPROFILE%\Projects` -> `music_director_database\.agents\skills\vercel-react-best-practices\SKILL.md`
+- `web-design-guidelines` [skill] in `music_director_database` from `%USERPROFILE%\Projects` -> `music_director_database\.agents\skills\web-design-guidelines\SKILL.md`
+- `apple-design` [skill] in `react-bits` from `%USERPROFILE%\Projects` -> `react-bits\AGENTS\SKILLS\apple-design\SKILL.md`
+- `find-animation-opportunities` [skill] in `react-bits` from `%USERPROFILE%\Projects` -> `react-bits\AGENTS\SKILLS\find-animation-opportunities\SKILL.md`
+- `improve-animations` [skill] in `react-bits` from `%USERPROFILE%\Projects` -> `react-bits\AGENTS\SKILLS\improve-animations\SKILL.md`
+- `review-animations` [skill] in `react-bits` from `%USERPROFILE%\Projects` -> `react-bits\AGENTS\SKILLS\review-animations\SKILL.md`
+- `koa-brand-asset-review` [skill] in `sons_of_kawthoolei` from `%USERPROFILE%\Projects` -> `sons_of_kawthoolei\KOA\.agents\skills\koa-brand-asset-review\SKILL.md`
 
 ## claude-compatible-skills
 
-- `cinematic-scroll-ui` [skill] in `23a5` -> `23a5\koa-website\.claude\skills\cinematic-scroll-ui\SKILL.md`
-- `cinematic-scroll-ui` [skill] in `325e` -> `325e\koa-website\.claude\skills\cinematic-scroll-ui\SKILL.md`
-- `cinematic-scroll-ui` [skill] in `koa-website-sites-publish-20260904-153159` -> `koa-website-sites-publish-20260904-153159\.claude\skills\cinematic-scroll-ui\SKILL.md`
-- `cinematic-scroll-ui` [skill] in `koa-website-sites-publish-lite-20260904-162630` -> `koa-website-sites-publish-lite-20260904-162630\.claude\skills\cinematic-scroll-ui\SKILL.md`
-- `cinematic-scroll-ui` [skill] in `koa-website-sites-publish-min-20260904-161735` -> `koa-website-sites-publish-min-20260904-161735\.claude\skills\cinematic-scroll-ui\SKILL.md`
-- `cinematic-scroll-ui` [skill] in `koa-website` -> `koa-website\.claude\skills\cinematic-scroll-ui\SKILL.md`
+- `gitnexus-cli` [skill] in `.claude` from `%USERPROFILE%\maka-gitnexus-integration` -> `.claude\skills\gitnexus-cli\SKILL.md`
+- `gitnexus-debugging` [skill] in `.claude` from `%USERPROFILE%\maka-gitnexus-integration` -> `.claude\skills\gitnexus-debugging\SKILL.md`
+- `gitnexus-exploring` [skill] in `.claude` from `%USERPROFILE%\maka-gitnexus-integration` -> `.claude\skills\gitnexus-exploring\SKILL.md`
+- `gitnexus-guide` [skill] in `.claude` from `%USERPROFILE%\maka-gitnexus-integration` -> `.claude\skills\gitnexus-guide\SKILL.md`
+- `gitnexus-impact-analysis` [skill] in `.claude` from `%USERPROFILE%\maka-gitnexus-integration` -> `.claude\skills\gitnexus-impact-analysis\SKILL.md`
+- `gitnexus-lfg` [skill] in `.claude` from `%USERPROFILE%\maka-gitnexus-integration` -> `.claude\skills\gitnexus-lfg\SKILL.md`
+- `gitnexus-plan` [skill] in `.claude` from `%USERPROFILE%\maka-gitnexus-integration` -> `.claude\skills\gitnexus-plan\SKILL.md`
+- `gitnexus-pr-swarm-review` [skill] in `.claude` from `%USERPROFILE%\maka-gitnexus-integration` -> `.claude\skills\gitnexus-pr-swarm-review\SKILL.md`
+- `gitnexus-refactoring` [skill] in `.claude` from `%USERPROFILE%\maka-gitnexus-integration` -> `.claude\skills\gitnexus-refactoring\SKILL.md`
+- `gitnexus-review` [skill] in `.claude` from `%USERPROFILE%\maka-gitnexus-integration` -> `.claude\skills\gitnexus-review\SKILL.md`
+- `gitnexus-work` [skill] in `.claude` from `%USERPROFILE%\maka-gitnexus-integration` -> `.claude\skills\gitnexus-work\SKILL.md`
+- `cinematic-scroll-ui` [skill] in `23a5` from `%USERPROFILE%\Projects` -> `23a5\koa-website\.claude\skills\cinematic-scroll-ui\SKILL.md`
+- `cinematic-scroll-ui` [skill] in `325e` from `%USERPROFILE%\Projects` -> `325e\koa-website\.claude\skills\cinematic-scroll-ui\SKILL.md`
+- `gitnexus-cli` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\karen-lang-trans\.claude\skills\gitnexus-cli\SKILL.md`
+- `gitnexus-cli` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\karen-music-website\.claude\skills\gitnexus-cli\SKILL.md`
+- `gitnexus-cli` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\S-gaw-Karen-AI-ML-OCR-Language-Recognition\.claude\skills\gitnexus-cli\SKILL.md`
+- `gitnexus-cli` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\S-gaw-Karen-Dictionary-Builder\.claude\skills\gitnexus-cli\SKILL.md`
+- `gitnexus-cli` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\sentiment-life\.claude\skills\gitnexus-cli\SKILL.md`
+- `gitnexus-debugging` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\karen-lang-trans\.claude\skills\gitnexus-debugging\SKILL.md`
+- `gitnexus-debugging` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\karen-music-website\.claude\skills\gitnexus-debugging\SKILL.md`
+- `gitnexus-debugging` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\S-gaw-Karen-AI-ML-OCR-Language-Recognition\.claude\skills\gitnexus-debugging\SKILL.md`
+- `gitnexus-debugging` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\S-gaw-Karen-Dictionary-Builder\.claude\skills\gitnexus-debugging\SKILL.md`
+- `gitnexus-debugging` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\sentiment-life\.claude\skills\gitnexus-debugging\SKILL.md`
+- `gitnexus-exploring` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\karen-lang-trans\.claude\skills\gitnexus-exploring\SKILL.md`
+- `gitnexus-exploring` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\karen-music-website\.claude\skills\gitnexus-exploring\SKILL.md`
+- `gitnexus-exploring` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\S-gaw-Karen-AI-ML-OCR-Language-Recognition\.claude\skills\gitnexus-exploring\SKILL.md`
+- `gitnexus-exploring` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\S-gaw-Karen-Dictionary-Builder\.claude\skills\gitnexus-exploring\SKILL.md`
+- `gitnexus-exploring` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\sentiment-life\.claude\skills\gitnexus-exploring\SKILL.md`
+- `gitnexus-guide` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\karen-lang-trans\.claude\skills\gitnexus-guide\SKILL.md`
+- `gitnexus-guide` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\karen-music-website\.claude\skills\gitnexus-guide\SKILL.md`
+- `gitnexus-guide` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\S-gaw-Karen-AI-ML-OCR-Language-Recognition\.claude\skills\gitnexus-guide\SKILL.md`
+- `gitnexus-guide` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\S-gaw-Karen-Dictionary-Builder\.claude\skills\gitnexus-guide\SKILL.md`
+- `gitnexus-guide` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\sentiment-life\.claude\skills\gitnexus-guide\SKILL.md`
+- `gitnexus-impact-analysis` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\karen-lang-trans\.claude\skills\gitnexus-impact-analysis\SKILL.md`
+- `gitnexus-impact-analysis` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\karen-music-website\.claude\skills\gitnexus-impact-analysis\SKILL.md`
+- `gitnexus-impact-analysis` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\S-gaw-Karen-AI-ML-OCR-Language-Recognition\.claude\skills\gitnexus-impact-analysis\SKILL.md`
+- `gitnexus-impact-analysis` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\S-gaw-Karen-Dictionary-Builder\.claude\skills\gitnexus-impact-analysis\SKILL.md`
+- `gitnexus-impact-analysis` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\sentiment-life\.claude\skills\gitnexus-impact-analysis\SKILL.md`
+- `gitnexus-refactoring` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\karen-lang-trans\.claude\skills\gitnexus-refactoring\SKILL.md`
+- `gitnexus-refactoring` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\karen-music-website\.claude\skills\gitnexus-refactoring\SKILL.md`
+- `gitnexus-refactoring` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\S-gaw-Karen-AI-ML-OCR-Language-Recognition\.claude\skills\gitnexus-refactoring\SKILL.md`
+- `gitnexus-refactoring` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\S-gaw-Karen-Dictionary-Builder\.claude\skills\gitnexus-refactoring\SKILL.md`
+- `gitnexus-refactoring` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\sentiment-life\.claude\skills\gitnexus-refactoring\SKILL.md`
+- `cinematic-scroll-ui` [skill] in `koa-website-sites-publish-20260904-153159` from `%USERPROFILE%\Projects` -> `koa-website-sites-publish-20260904-153159\.claude\skills\cinematic-scroll-ui\SKILL.md`
+- `cinematic-scroll-ui` [skill] in `koa-website-sites-publish-lite-20260904-162630` from `%USERPROFILE%\Projects` -> `koa-website-sites-publish-lite-20260904-162630\.claude\skills\cinematic-scroll-ui\SKILL.md`
+- `cinematic-scroll-ui` [skill] in `koa-website-sites-publish-min-20260904-161735` from `%USERPROFILE%\Projects` -> `koa-website-sites-publish-min-20260904-161735\.claude\skills\cinematic-scroll-ui\SKILL.md`
+- `cinematic-scroll-ui` [skill] in `koa-website` from `%USERPROFILE%\Projects` -> `koa-website\.claude\skills\cinematic-scroll-ui\SKILL.md`
+- `cinematic-scroll-ui` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\.claude\skills\cinematic-scroll-ui\SKILL.md`
+- `gitnexus-cli` [skill] in `maka` from `%USERPROFILE%\Projects` -> `maka\.claude\skills\gitnexus-cli\SKILL.md`
+- `gitnexus-debugging` [skill] in `maka` from `%USERPROFILE%\Projects` -> `maka\.claude\skills\gitnexus-debugging\SKILL.md`
+- `gitnexus-exploring` [skill] in `maka` from `%USERPROFILE%\Projects` -> `maka\.claude\skills\gitnexus-exploring\SKILL.md`
+- `gitnexus-guide` [skill] in `maka` from `%USERPROFILE%\Projects` -> `maka\.claude\skills\gitnexus-guide\SKILL.md`
+- `gitnexus-impact-analysis` [skill] in `maka` from `%USERPROFILE%\Projects` -> `maka\.claude\skills\gitnexus-impact-analysis\SKILL.md`
+- `gitnexus-refactoring` [skill] in `maka` from `%USERPROFILE%\Projects` -> `maka\.claude\skills\gitnexus-refactoring\SKILL.md`
 
 ## claude-instructions
 
-- `CLAUDE.md` [claude-instructions] in `ai_eng_skill_map` -> `ai_eng_skill_map\firecrawl\CLAUDE.md`
-- `CLAUDE.md` [claude-instructions] in `skills-hub` -> `skills-hub\CLAUDE.md`
+- `CLAUDE.md` [claude-instructions] in `ai_eng_skill_map` from `%USERPROFILE%\Projects` -> `ai_eng_skill_map\firecrawl\CLAUDE.md`
+- `CLAUDE.md` [claude-instructions] in `CLAUDE.md` from `%USERPROFILE%\maka-gitnexus-integration` -> `CLAUDE.md`
+- `CLAUDE.md` [claude-instructions] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\karen-lang-trans\CLAUDE.md`
+- `CLAUDE.md` [claude-instructions] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\karen-music-website\CLAUDE.md`
+- `CLAUDE.md` [claude-instructions] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\S-gaw-Karen-AI-ML-OCR-Language-Recognition\CLAUDE.md`
+- `CLAUDE.md` [claude-instructions] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\S-gaw-Karen-Dictionary-Builder\CLAUDE.md`
+- `CLAUDE.md` [claude-instructions] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\sentiment-life\CLAUDE.md`
+- `CLAUDE.md` [claude-instructions] in `maka` from `%USERPROFILE%\Projects` -> `maka\CLAUDE.md`
+- `CLAUDE.md` [claude-instructions] in `skills-hub` from `%USERPROFILE%\Projects` -> `skills-hub\CLAUDE.md`
 
-## codex-project-skills
+## codex-global-skills
 
-- `find-project-skills` [skill] in `karen-scraper-web` -> `karen-scraper-web\.codex\skills\find-project-skills\SKILL.md`
-- `refine-messy-prompt` [skill] in `karen-scraper-web` -> `karen-scraper-web\.codex\skills\refine-messy-prompt\SKILL.md`
-- `sgaw-ground-truth` [skill] in `karen-scraper-web` -> `karen-scraper-web\.codex\skills\sgaw-ground-truth\SKILL.md`
-- `karen-music-ui` [skill] in `music_director_database` -> `music_director_database\karen_music_director\.codex\skills\karen-music-ui\SKILL.md`
+- `imagegen` [skill] in `.system` from `%USERPROFILE%\.codex\skills` -> `.system\imagegen\SKILL.md`
+- `openai-docs` [skill] in `.system` from `%USERPROFILE%\.codex\skills` -> `.system\openai-docs\SKILL.md`
+- `plugin-creator` [skill] in `.system` from `%USERPROFILE%\.codex\skills` -> `.system\plugin-creator\SKILL.md`
+- `review-agent` [skill] in `.system` from `%USERPROFILE%\.codex\skills` -> `.system\review-agent\SKILL.md`
+- `skill-creator` [skill] in `.system` from `%USERPROFILE%\.codex\skills` -> `.system\skill-creator\SKILL.md`
+- `skill-installer` [skill] in `.system` from `%USERPROFILE%\.codex\skills` -> `.system\skill-installer\SKILL.md`
+- `brainstorming` [skill] in `brainstorming` from `%USERPROFILE%\.codex\skills` -> `brainstorming\brainstorming\SKILL.md`
+- `brainstorming` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\collaboration\brainstorming\SKILL.md`
+- `commenting-intent` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\coding\commenting-intent\SKILL.md`
+- `condition-based-waiting` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\testing\condition-based-waiting\SKILL.md`
+- `creating-skills` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\meta\creating-skills\SKILL.md`
+- `defense-in-depth` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\debugging\defense-in-depth\SKILL.md`
+- `designing-before-coding` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\coding\designing-before-coding\SKILL.md`
+- `dispatching-parallel-agents` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\collaboration\dispatching-parallel-agents\SKILL.md`
+- `encapsulating-complexity` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\architecture\encapsulating-complexity\SKILL.md`
+- `executing-plans` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\collaboration\executing-plans\SKILL.md`
+- `exploring-alternatives` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\coding\exploring-alternatives\SKILL.md`
+- `finishing-a-development-branch` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\collaboration\finishing-a-development-branch\SKILL.md`
+- `gardening-skills-wiki` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\meta\gardening-skills-wiki\SKILL.md`
+- `getting-started` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\getting-started\SKILL.md`
+- `installing-skills` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\meta\installing-skills\SKILL.md`
+- `keeping-routines-focused` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\coding\keeping-routines-focused\SKILL.md`
+- `localizing-variables` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\coding\localizing-variables\SKILL.md`
+- `maintaining-consistent-abstractions` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\architecture\maintaining-consistent-abstractions\SKILL.md`
+- `naming-by-domain` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\coding\naming-by-domain\SKILL.md`
+- `naming-variables` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\coding\naming-variables\SKILL.md`
+- `receiving-code-review` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\collaboration\receiving-code-review\SKILL.md`
+- `reducing-complexity` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\architecture\reducing-complexity\SKILL.md`
+- `refactoring-safely` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\coding\refactoring-safely\SKILL.md`
+- `remembering-conversations` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\collaboration\remembering-conversations\SKILL.md`
+- `requesting-code-review` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\collaboration\requesting-code-review\SKILL.md`
+- `root-cause-tracing` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\debugging\root-cause-tracing\SKILL.md`
+- `simplifying-control-flow` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\coding\simplifying-control-flow\SKILL.md`
+- `single-purpose-variables` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\coding\single-purpose-variables\SKILL.md`
+- `subagent-driven-development` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\collaboration\subagent-driven-development\SKILL.md`
+- `systematic-debugging` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\debugging\systematic-debugging\SKILL.md`
+- `test-driven-development` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\testing\test-driven-development\SKILL.md`
+- `testing-anti-patterns` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\testing\testing-anti-patterns\SKILL.md`
+- `testing-skills-with-subagents` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\meta\testing-skills-with-subagents\SKILL.md`
+- `using-git-worktrees` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\collaboration\using-git-worktrees\SKILL.md`
+- `validating-inputs` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\coding\validating-inputs\SKILL.md`
+- `verification-before-completion` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\debugging\verification-before-completion\SKILL.md`
+- `writing-evergreen-comments` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\coding\writing-evergreen-comments\SKILL.md`
+- `writing-plans` [skill] in `clank` from `%USERPROFILE%\.codex\skills` -> `clank\clank-main\skills\collaboration\writing-plans\SKILL.md`
+- `find-project-skills` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\karen-scraper-web\.codex\skills\find-project-skills\SKILL.md`
+- `refine-messy-prompt` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\karen-scraper-web\.codex\skills\refine-messy-prompt\SKILL.md`
+- `sgaw-ground-truth` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\karen-scraper-web\.codex\skills\sgaw-ground-truth\SKILL.md`
+- `find-project-skills` [skill] in `karen-scraper-web` from `%USERPROFILE%\Projects` -> `karen-scraper-web\.codex\skills\find-project-skills\SKILL.md`
+- `refine-messy-prompt` [skill] in `karen-scraper-web` from `%USERPROFILE%\Projects` -> `karen-scraper-web\.codex\skills\refine-messy-prompt\SKILL.md`
+- `sgaw-ground-truth` [skill] in `karen-scraper-web` from `%USERPROFILE%\Projects` -> `karen-scraper-web\.codex\skills\sgaw-ground-truth\SKILL.md`
+- `karen-music-ui` [skill] in `music_director_database` from `%USERPROFILE%\Projects` -> `music_director_database\karen_music_director\.codex\skills\karen-music-ui\SKILL.md`
+- `skills` [skill] in `SKILL.md` from `%USERPROFILE%\.codex\skills` -> `SKILL.md`
+
+## codex-vendor-import-skills
+
+- `aspnet-core` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\aspnet-core\SKILL.md`
+- `chatgpt-apps` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\chatgpt-apps\SKILL.md`
+- `cli-creator` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\cli-creator\SKILL.md`
+- `cloudflare-deploy` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\cloudflare-deploy\SKILL.md`
+- `define-goal` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\define-goal\SKILL.md`
+- `figma-code-connect-components` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\figma-code-connect-components\SKILL.md`
+- `figma-create-design-system-rules` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\figma-create-design-system-rules\SKILL.md`
+- `figma-create-new-file` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\figma-create-new-file\SKILL.md`
+- `figma-generate-design` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\figma-generate-design\SKILL.md`
+- `figma-generate-library` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\figma-generate-library\SKILL.md`
+- `figma-implement-design` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\figma-implement-design\SKILL.md`
+- `figma-use` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\figma-use\SKILL.md`
+- `figma` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\figma\SKILL.md`
+- `gh-address-comments` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\gh-address-comments\SKILL.md`
+- `gh-fix-ci` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\gh-fix-ci\SKILL.md`
+- `hatch-pet` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\hatch-pet\SKILL.md`
+- `jupyter-notebook` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\jupyter-notebook\SKILL.md`
+- `linear` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\linear\SKILL.md`
+- `migrate-to-codex` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\migrate-to-codex\SKILL.md`
+- `netlify-deploy` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\netlify-deploy\SKILL.md`
+- `notion-knowledge-capture` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\notion-knowledge-capture\SKILL.md`
+- `notion-meeting-intelligence` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\notion-meeting-intelligence\SKILL.md`
+- `notion-research-documentation` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\notion-research-documentation\SKILL.md`
+- `notion-spec-to-implementation` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\notion-spec-to-implementation\SKILL.md`
+- `openai-docs` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\openai-docs\SKILL.md`
+- `pdf` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\pdf\SKILL.md`
+- `playwright-interactive` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\playwright-interactive\SKILL.md`
+- `playwright` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\playwright\SKILL.md`
+- `render-deploy` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\render-deploy\SKILL.md`
+- `screenshot` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\screenshot\SKILL.md`
+- `security-best-practices` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\security-best-practices\SKILL.md`
+- `security-ownership-map` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\security-ownership-map\SKILL.md`
+- `security-threat-model` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\security-threat-model\SKILL.md`
+- `sentry` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\sentry\SKILL.md`
+- `speech` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\speech\SKILL.md`
+- `transcribe` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\transcribe\SKILL.md`
+- `vercel-deploy` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\vercel-deploy\SKILL.md`
+- `winui-app` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\winui-app\SKILL.md`
+- `yeet` [skill] in `skills` from `%USERPROFILE%\.codex\vendor_imports` -> `skills\skills\.curated\yeet\SKILL.md`
+
+## gitnexus-local-skills
+
+- `gitnexus-cli` [skill] in `.claude` from `%USERPROFILE%\GitNexus` -> `.claude\skills\gitnexus-cli\SKILL.md`
+- `gitnexus-debugging` [skill] in `.claude` from `%USERPROFILE%\GitNexus` -> `.claude\skills\gitnexus-debugging\SKILL.md`
+- `gitnexus-exploring` [skill] in `.claude` from `%USERPROFILE%\GitNexus` -> `.claude\skills\gitnexus-exploring\SKILL.md`
+- `gitnexus-guide` [skill] in `.claude` from `%USERPROFILE%\GitNexus` -> `.claude\skills\gitnexus-guide\SKILL.md`
+- `gitnexus-impact-analysis` [skill] in `.claude` from `%USERPROFILE%\GitNexus` -> `.claude\skills\gitnexus-impact-analysis\SKILL.md`
+- `gitnexus-lfg` [skill] in `.claude` from `%USERPROFILE%\GitNexus` -> `.claude\skills\gitnexus-lfg\SKILL.md`
+- `gitnexus-pdg-query` [skill] in `.claude` from `%USERPROFILE%\GitNexus` -> `.claude\skills\gitnexus\gitnexus-pdg-query\SKILL.md`
+- `gitnexus-pdg-query` [skill] in `.claude` from `%USERPROFILE%\maka-gitnexus-integration` -> `.claude\skills\gitnexus\gitnexus-pdg-query\SKILL.md`
+- `gitnexus-plan` [skill] in `.claude` from `%USERPROFILE%\GitNexus` -> `.claude\skills\gitnexus-plan\SKILL.md`
+- `gitnexus-pr-swarm-review` [skill] in `.claude` from `%USERPROFILE%\GitNexus` -> `.claude\skills\gitnexus-pr-swarm-review\SKILL.md`
+- `gitnexus-refactoring` [skill] in `.claude` from `%USERPROFILE%\GitNexus` -> `.claude\skills\gitnexus-refactoring\SKILL.md`
+- `gitnexus-review` [skill] in `.claude` from `%USERPROFILE%\GitNexus` -> `.claude\skills\gitnexus-review\SKILL.md`
+- `gitnexus-taint-analysis` [skill] in `.claude` from `%USERPROFILE%\GitNexus` -> `.claude\skills\gitnexus\gitnexus-taint-analysis\SKILL.md`
+- `gitnexus-taint-analysis` [skill] in `.claude` from `%USERPROFILE%\maka-gitnexus-integration` -> `.claude\skills\gitnexus\gitnexus-taint-analysis\SKILL.md`
+- `gitnexus-work` [skill] in `.claude` from `%USERPROFILE%\GitNexus` -> `.claude\skills\gitnexus-work\SKILL.md`
+- `AGENTS.md` [agent-instructions] in `AGENTS.md` from `%USERPROFILE%\GitNexus` -> `AGENTS.md`
+- `CLAUDE.md` [claude-instructions] in `CLAUDE.md` from `%USERPROFILE%\GitNexus` -> `CLAUDE.md`
+- `gitnexus-cli` [skill] in `gitnexus-claude-plugin` from `%USERPROFILE%\GitNexus` -> `gitnexus-claude-plugin\skills\gitnexus-cli\SKILL.md`
+- `gitnexus-debugging` [skill] in `gitnexus-claude-plugin` from `%USERPROFILE%\GitNexus` -> `gitnexus-claude-plugin\skills\gitnexus-debugging\SKILL.md`
+- `gitnexus-exploring` [skill] in `gitnexus-claude-plugin` from `%USERPROFILE%\GitNexus` -> `gitnexus-claude-plugin\skills\gitnexus-exploring\SKILL.md`
+- `gitnexus-guide` [skill] in `gitnexus-claude-plugin` from `%USERPROFILE%\GitNexus` -> `gitnexus-claude-plugin\skills\gitnexus-guide\SKILL.md`
+- `gitnexus-impact-analysis` [skill] in `gitnexus-claude-plugin` from `%USERPROFILE%\GitNexus` -> `gitnexus-claude-plugin\skills\gitnexus-impact-analysis\SKILL.md`
+- `gitnexus-lfg` [skill] in `gitnexus-claude-plugin` from `%USERPROFILE%\GitNexus` -> `gitnexus-claude-plugin\skills\gitnexus-lfg\SKILL.md`
+- `gitnexus-pdg-query` [skill] in `gitnexus-claude-plugin` from `%USERPROFILE%\GitNexus` -> `gitnexus-claude-plugin\skills\gitnexus-pdg-query\SKILL.md`
+- `gitnexus-plan` [skill] in `gitnexus-claude-plugin` from `%USERPROFILE%\GitNexus` -> `gitnexus-claude-plugin\skills\gitnexus-plan\SKILL.md`
+- `gitnexus-refactoring` [skill] in `gitnexus-claude-plugin` from `%USERPROFILE%\GitNexus` -> `gitnexus-claude-plugin\skills\gitnexus-refactoring\SKILL.md`
+- `gitnexus-review` [skill] in `gitnexus-claude-plugin` from `%USERPROFILE%\GitNexus` -> `gitnexus-claude-plugin\skills\gitnexus-review\SKILL.md`
+- `gitnexus-taint-analysis` [skill] in `gitnexus-claude-plugin` from `%USERPROFILE%\GitNexus` -> `gitnexus-claude-plugin\skills\gitnexus-taint-analysis\SKILL.md`
+- `gitnexus-work` [skill] in `gitnexus-claude-plugin` from `%USERPROFILE%\GitNexus` -> `gitnexus-claude-plugin\skills\gitnexus-work\SKILL.md`
+- `gitnexus-debugging` [skill] in `gitnexus-cursor-integration` from `%USERPROFILE%\GitNexus` -> `gitnexus-cursor-integration\skills\gitnexus-debugging\SKILL.md`
+- `gitnexus-exploring` [skill] in `gitnexus-cursor-integration` from `%USERPROFILE%\GitNexus` -> `gitnexus-cursor-integration\skills\gitnexus-exploring\SKILL.md`
+- `gitnexus-impact-analysis` [skill] in `gitnexus-cursor-integration` from `%USERPROFILE%\GitNexus` -> `gitnexus-cursor-integration\skills\gitnexus-impact-analysis\SKILL.md`
+- `gitnexus-refactoring` [skill] in `gitnexus-cursor-integration` from `%USERPROFILE%\GitNexus` -> `gitnexus-cursor-integration\skills\gitnexus-refactoring\SKILL.md`
+- `gitnexus-review` [skill] in `gitnexus-cursor-integration` from `%USERPROFILE%\GitNexus` -> `gitnexus-cursor-integration\skills\gitnexus-review\SKILL.md`
+- `AGENTS.md` [agent-instructions] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\AGENTS.md`
+- `CLAUDE.md` [claude-instructions] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\CLAUDE.md`
+- `gitnexus-cli` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\.claude\skills\gitnexus-cli\SKILL.md`
+- `gitnexus-cli` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\gitnexus-claude-plugin\skills\gitnexus-cli\SKILL.md`
+- `gitnexus-debugging` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\.claude\skills\gitnexus-debugging\SKILL.md`
+- `gitnexus-debugging` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\gitnexus-claude-plugin\skills\gitnexus-debugging\SKILL.md`
+- `gitnexus-debugging` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\gitnexus-cursor-integration\skills\gitnexus-debugging\SKILL.md`
+- `gitnexus-exploring` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\.claude\skills\gitnexus-exploring\SKILL.md`
+- `gitnexus-exploring` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\gitnexus-claude-plugin\skills\gitnexus-exploring\SKILL.md`
+- `gitnexus-exploring` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\gitnexus-cursor-integration\skills\gitnexus-exploring\SKILL.md`
+- `gitnexus-guide` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\.claude\skills\gitnexus-guide\SKILL.md`
+- `gitnexus-guide` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\gitnexus-claude-plugin\skills\gitnexus-guide\SKILL.md`
+- `gitnexus-impact-analysis` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\.claude\skills\gitnexus-impact-analysis\SKILL.md`
+- `gitnexus-impact-analysis` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\gitnexus-claude-plugin\skills\gitnexus-impact-analysis\SKILL.md`
+- `gitnexus-impact-analysis` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\gitnexus-cursor-integration\skills\gitnexus-impact-analysis\SKILL.md`
+- `gitnexus-lfg` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\.claude\skills\gitnexus-lfg\SKILL.md`
+- `gitnexus-lfg` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\gitnexus-claude-plugin\skills\gitnexus-lfg\SKILL.md`
+- `gitnexus-lfg` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\gitnexus\skills\gitnexus-lfg\SKILL.md`
+- `gitnexus-lfg` [skill] in `gitnexus` from `%USERPROFILE%\GitNexus` -> `gitnexus\skills\gitnexus-lfg\SKILL.md`
+- `gitnexus-lfg` [skill] in `gitnexus` from `%USERPROFILE%\maka-gitnexus-integration` -> `gitnexus\skills\gitnexus-lfg\SKILL.md`
+- `gitnexus-pdg-query` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\.claude\skills\gitnexus\gitnexus-pdg-query\SKILL.md`
+- `gitnexus-pdg-query` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\gitnexus-claude-plugin\skills\gitnexus-pdg-query\SKILL.md`
+- `gitnexus-plan` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\.claude\skills\gitnexus-plan\SKILL.md`
+- `gitnexus-plan` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\gitnexus-claude-plugin\skills\gitnexus-plan\SKILL.md`
+- `gitnexus-plan` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\gitnexus\skills\gitnexus-plan\SKILL.md`
+- `gitnexus-plan` [skill] in `gitnexus` from `%USERPROFILE%\GitNexus` -> `gitnexus\skills\gitnexus-plan\SKILL.md`
+- `gitnexus-plan` [skill] in `gitnexus` from `%USERPROFILE%\maka-gitnexus-integration` -> `gitnexus\skills\gitnexus-plan\SKILL.md`
+- `gitnexus-pr-swarm-review` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\.claude\skills\gitnexus-pr-swarm-review\SKILL.md`
+- `gitnexus-refactoring` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\.claude\skills\gitnexus-refactoring\SKILL.md`
+- `gitnexus-refactoring` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\gitnexus-claude-plugin\skills\gitnexus-refactoring\SKILL.md`
+- `gitnexus-refactoring` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\gitnexus-cursor-integration\skills\gitnexus-refactoring\SKILL.md`
+- `gitnexus-review` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\.claude\skills\gitnexus-review\SKILL.md`
+- `gitnexus-review` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\gitnexus-claude-plugin\skills\gitnexus-review\SKILL.md`
+- `gitnexus-review` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\gitnexus-cursor-integration\skills\gitnexus-review\SKILL.md`
+- `gitnexus-review` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\gitnexus\skills\gitnexus-review\SKILL.md`
+- `gitnexus-review` [skill] in `gitnexus` from `%USERPROFILE%\GitNexus` -> `gitnexus\skills\gitnexus-review\SKILL.md`
+- `gitnexus-review` [skill] in `gitnexus` from `%USERPROFILE%\maka-gitnexus-integration` -> `gitnexus\skills\gitnexus-review\SKILL.md`
+- `gitnexus-taint-analysis` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\.claude\skills\gitnexus\gitnexus-taint-analysis\SKILL.md`
+- `gitnexus-taint-analysis` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\gitnexus-claude-plugin\skills\gitnexus-taint-analysis\SKILL.md`
+- `gitnexus-work` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\.claude\skills\gitnexus-work\SKILL.md`
+- `gitnexus-work` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\gitnexus-claude-plugin\skills\gitnexus-work\SKILL.md`
+- `gitnexus-work` [skill] in `GitNexus` from `%USERPROFILE%\Projects` -> `GitNexus\gitnexus\skills\gitnexus-work\SKILL.md`
+- `gitnexus-work` [skill] in `gitnexus` from `%USERPROFILE%\GitNexus` -> `gitnexus\skills\gitnexus-work\SKILL.md`
+- `gitnexus-work` [skill] in `gitnexus` from `%USERPROFILE%\maka-gitnexus-integration` -> `gitnexus\skills\gitnexus-work\SKILL.md`
+- `AGENTS.md` [agent-instructions] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\AGENTS.md`
+- `CLAUDE.md` [claude-instructions] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\CLAUDE.md`
+- `gitnexus-cli` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\.claude\skills\gitnexus-cli\SKILL.md`
+- `gitnexus-cli` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\gitnexus-claude-plugin\skills\gitnexus-cli\SKILL.md`
+- `gitnexus-debugging` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\.claude\skills\gitnexus-debugging\SKILL.md`
+- `gitnexus-debugging` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\gitnexus-claude-plugin\skills\gitnexus-debugging\SKILL.md`
+- `gitnexus-debugging` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\gitnexus-cursor-integration\skills\gitnexus-debugging\SKILL.md`
+- `gitnexus-exploring` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\.claude\skills\gitnexus-exploring\SKILL.md`
+- `gitnexus-exploring` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\gitnexus-claude-plugin\skills\gitnexus-exploring\SKILL.md`
+- `gitnexus-exploring` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\gitnexus-cursor-integration\skills\gitnexus-exploring\SKILL.md`
+- `gitnexus-guide` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\.claude\skills\gitnexus-guide\SKILL.md`
+- `gitnexus-guide` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\gitnexus-claude-plugin\skills\gitnexus-guide\SKILL.md`
+- `gitnexus-impact-analysis` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\.claude\skills\gitnexus-impact-analysis\SKILL.md`
+- `gitnexus-impact-analysis` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\gitnexus-claude-plugin\skills\gitnexus-impact-analysis\SKILL.md`
+- `gitnexus-impact-analysis` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\gitnexus-cursor-integration\skills\gitnexus-impact-analysis\SKILL.md`
+- `gitnexus-lfg` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\.claude\skills\gitnexus-lfg\SKILL.md`
+- `gitnexus-lfg` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\gitnexus-claude-plugin\skills\gitnexus-lfg\SKILL.md`
+- `gitnexus-lfg` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\gitnexus\skills\gitnexus-lfg\SKILL.md`
+- `gitnexus-pdg-query` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\.claude\skills\gitnexus\gitnexus-pdg-query\SKILL.md`
+- `gitnexus-pdg-query` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\gitnexus-claude-plugin\skills\gitnexus-pdg-query\SKILL.md`
+- `gitnexus-plan` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\.claude\skills\gitnexus-plan\SKILL.md`
+- `gitnexus-plan` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\gitnexus-claude-plugin\skills\gitnexus-plan\SKILL.md`
+- `gitnexus-plan` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\gitnexus\skills\gitnexus-plan\SKILL.md`
+- `gitnexus-pr-swarm-review` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\.claude\skills\gitnexus-pr-swarm-review\SKILL.md`
+- `gitnexus-refactoring` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\.claude\skills\gitnexus-refactoring\SKILL.md`
+- `gitnexus-refactoring` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\gitnexus-claude-plugin\skills\gitnexus-refactoring\SKILL.md`
+- `gitnexus-refactoring` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\gitnexus-cursor-integration\skills\gitnexus-refactoring\SKILL.md`
+- `gitnexus-review` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\.claude\skills\gitnexus-review\SKILL.md`
+- `gitnexus-review` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\gitnexus-claude-plugin\skills\gitnexus-review\SKILL.md`
+- `gitnexus-review` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\gitnexus-cursor-integration\skills\gitnexus-review\SKILL.md`
+- `gitnexus-review` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\gitnexus\skills\gitnexus-review\SKILL.md`
+- `gitnexus-taint-analysis` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\.claude\skills\gitnexus\gitnexus-taint-analysis\SKILL.md`
+- `gitnexus-taint-analysis` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\gitnexus-claude-plugin\skills\gitnexus-taint-analysis\SKILL.md`
+- `gitnexus-work` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\.claude\skills\gitnexus-work\SKILL.md`
+- `gitnexus-work` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\gitnexus-claude-plugin\skills\gitnexus-work\SKILL.md`
+- `gitnexus-work` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\GitNexus\gitnexus\skills\gitnexus-work\SKILL.md`
+- `AGENTS.md` [agent-instructions] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\AGENTS.md`
+- `CLAUDE.md` [claude-instructions] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\CLAUDE.md`
+- `gitnexus-cli` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\.claude\skills\gitnexus-cli\SKILL.md`
+- `gitnexus-cli` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\gitnexus-claude-plugin\skills\gitnexus-cli\SKILL.md`
+- `gitnexus-debugging` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\.claude\skills\gitnexus-debugging\SKILL.md`
+- `gitnexus-debugging` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\gitnexus-claude-plugin\skills\gitnexus-debugging\SKILL.md`
+- `gitnexus-debugging` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\gitnexus-cursor-integration\skills\gitnexus-debugging\SKILL.md`
+- `gitnexus-exploring` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\.claude\skills\gitnexus-exploring\SKILL.md`
+- `gitnexus-exploring` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\gitnexus-claude-plugin\skills\gitnexus-exploring\SKILL.md`
+- `gitnexus-exploring` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\gitnexus-cursor-integration\skills\gitnexus-exploring\SKILL.md`
+- `gitnexus-guide` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\.claude\skills\gitnexus-guide\SKILL.md`
+- `gitnexus-guide` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\gitnexus-claude-plugin\skills\gitnexus-guide\SKILL.md`
+- `gitnexus-impact-analysis` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\.claude\skills\gitnexus-impact-analysis\SKILL.md`
+- `gitnexus-impact-analysis` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\gitnexus-claude-plugin\skills\gitnexus-impact-analysis\SKILL.md`
+- `gitnexus-impact-analysis` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\gitnexus-cursor-integration\skills\gitnexus-impact-analysis\SKILL.md`
+- `gitnexus-lfg` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\.claude\skills\gitnexus-lfg\SKILL.md`
+- `gitnexus-lfg` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\gitnexus-claude-plugin\skills\gitnexus-lfg\SKILL.md`
+- `gitnexus-lfg` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\gitnexus\skills\gitnexus-lfg\SKILL.md`
+- `gitnexus-pdg-query` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\.claude\skills\gitnexus\gitnexus-pdg-query\SKILL.md`
+- `gitnexus-pdg-query` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\gitnexus-claude-plugin\skills\gitnexus-pdg-query\SKILL.md`
+- `gitnexus-plan` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\.claude\skills\gitnexus-plan\SKILL.md`
+- `gitnexus-plan` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\gitnexus-claude-plugin\skills\gitnexus-plan\SKILL.md`
+- `gitnexus-plan` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\gitnexus\skills\gitnexus-plan\SKILL.md`
+- `gitnexus-pr-swarm-review` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\.claude\skills\gitnexus-pr-swarm-review\SKILL.md`
+- `gitnexus-refactoring` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\.claude\skills\gitnexus-refactoring\SKILL.md`
+- `gitnexus-refactoring` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\gitnexus-claude-plugin\skills\gitnexus-refactoring\SKILL.md`
+- `gitnexus-refactoring` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\gitnexus-cursor-integration\skills\gitnexus-refactoring\SKILL.md`
+- `gitnexus-review` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\.claude\skills\gitnexus-review\SKILL.md`
+- `gitnexus-review` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\gitnexus-claude-plugin\skills\gitnexus-review\SKILL.md`
+- `gitnexus-review` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\gitnexus-cursor-integration\skills\gitnexus-review\SKILL.md`
+- `gitnexus-review` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\gitnexus\skills\gitnexus-review\SKILL.md`
+- `gitnexus-taint-analysis` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\.claude\skills\gitnexus\gitnexus-taint-analysis\SKILL.md`
+- `gitnexus-taint-analysis` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\gitnexus-claude-plugin\skills\gitnexus-taint-analysis\SKILL.md`
+- `gitnexus-work` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\.claude\skills\gitnexus-work\SKILL.md`
+- `gitnexus-work` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\gitnexus-claude-plugin\skills\gitnexus-work\SKILL.md`
+- `gitnexus-work` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\GitNexus\gitnexus\skills\gitnexus-work\SKILL.md`
 
 ## hermes-core-skills
 
-- `airtable` [skill] in `hermes-agent` -> `hermes-agent\skills\productivity\airtable\SKILL.md`
-- `apple-notes` [skill] in `hermes-agent` -> `hermes-agent\skills\apple\apple-notes\SKILL.md`
-- `apple-reminders` [skill] in `hermes-agent` -> `hermes-agent\skills\apple\apple-reminders\SKILL.md`
-- `architecture-diagram` [skill] in `hermes-agent` -> `hermes-agent\skills\creative\architecture-diagram\SKILL.md`
-- `arxiv` [skill] in `hermes-agent` -> `hermes-agent\skills\research\arxiv\SKILL.md`
-- `ascii-art` [skill] in `hermes-agent` -> `hermes-agent\skills\creative\ascii-art\SKILL.md`
-- `ascii-video` [skill] in `hermes-agent` -> `hermes-agent\skills\creative\ascii-video\SKILL.md`
-- `baoyu-infographic` [skill] in `hermes-agent` -> `hermes-agent\skills\creative\baoyu-infographic\SKILL.md`
-- `blocked-page-recovery` [skill] in `hermes-agent` -> `hermes-agent\skills\research\blocked-page-recovery\SKILL.md`
-- `blogwatcher` [skill] in `hermes-agent` -> `hermes-agent\skills\research\blogwatcher\SKILL.md`
-- `box` [skill] in `hermes-agent` -> `hermes-agent\skills\productivity\box\SKILL.md`
-- `claude-code` [skill] in `hermes-agent` -> `hermes-agent\skills\autonomous-ai-agents\claude-code\SKILL.md`
-- `claude-design` [skill] in `hermes-agent` -> `hermes-agent\skills\creative\claude-design\SKILL.md`
-- `codebase-inspection` [skill] in `hermes-agent` -> `hermes-agent\skills\github\codebase-inspection\SKILL.md`
-- `codex` [skill] in `hermes-agent` -> `hermes-agent\skills\autonomous-ai-agents\codex\SKILL.md`
-- `comfyui` [skill] in `hermes-agent` -> `hermes-agent\skills\creative\comfyui\SKILL.md`
-- `competitor-news-monitor` [skill] in `hermes-agent` -> `hermes-agent\skills\research\competitor-news-monitor\SKILL.md`
-- `computer-use` [skill] in `hermes-agent` -> `hermes-agent\skills\autonomous-ai-agents\computer-use\SKILL.md`
-- `design-md` [skill] in `hermes-agent` -> `hermes-agent\skills\creative\design-md\SKILL.md`
-- `document-to-action-items` [skill] in `hermes-agent` -> `hermes-agent\skills\productivity\document-to-action-items\SKILL.md`
-- `docx` [skill] in `hermes-agent` -> `hermes-agent\skills\productivity\docx\SKILL.md`
-- `dogfood` [skill] in `hermes-agent` -> `hermes-agent\skills\software-development\dogfood\SKILL.md`
-- `email-inbox-triage` [skill] in `hermes-agent` -> `hermes-agent\skills\email\email-inbox-triage\SKILL.md`
-- `evaluating-llms-harness` [skill] in `hermes-agent` -> `hermes-agent\skills\mlops\evaluation\evaluating-llms-harness\SKILL.md`
-- `excalidraw` [skill] in `hermes-agent` -> `hermes-agent\skills\creative\excalidraw\SKILL.md`
-- `findmy` [skill] in `hermes-agent` -> `hermes-agent\skills\apple\findmy\SKILL.md`
-- `gif-search` [skill] in `hermes-agent` -> `hermes-agent\skills\media\gif-search\SKILL.md`
-- `github-auth` [skill] in `hermes-agent` -> `hermes-agent\skills\github\github-auth\SKILL.md`
-- `github-code-review` [skill] in `hermes-agent` -> `hermes-agent\skills\github\github-code-review\SKILL.md`
-- `github-issue-to-pr` [skill] in `hermes-agent` -> `hermes-agent\skills\github\github-issue-to-pr\SKILL.md`
-- `github-issues` [skill] in `hermes-agent` -> `hermes-agent\skills\github\github-issues\SKILL.md`
-- `github-pr-workflow` [skill] in `hermes-agent` -> `hermes-agent\skills\github\github-pr-workflow\SKILL.md`
-- `github-repo-management` [skill] in `hermes-agent` -> `hermes-agent\skills\github\github-repo-management\SKILL.md`
-- `google-workspace` [skill] in `hermes-agent` -> `hermes-agent\skills\productivity\google-workspace\SKILL.md`
-- `grounded-citations` [skill] in `hermes-agent` -> `hermes-agent\skills\research\grounded-citations\SKILL.md`
-- `hermes-agent-skill-authoring` [skill] in `hermes-agent` -> `hermes-agent\skills\software-development\hermes-agent-skill-authoring\SKILL.md`
-- `hermes-agent` [skill] in `hermes-agent` -> `hermes-agent\skills\autonomous-ai-agents\hermes-agent\SKILL.md`
-- `himalaya` [skill] in `hermes-agent` -> `hermes-agent\skills\email\himalaya\SKILL.md`
-- `huggingface-hub` [skill] in `hermes-agent` -> `hermes-agent\skills\mlops\huggingface-hub\SKILL.md`
-- `humanizer` [skill] in `hermes-agent` -> `hermes-agent\skills\creative\humanizer\SKILL.md`
-- `imessage` [skill] in `hermes-agent` -> `hermes-agent\skills\apple\imessage\SKILL.md`
-- `inspecting-hermes-desktop-dom` [skill] in `hermes-agent` -> `hermes-agent\skills\software-development\inspecting-hermes-desktop-dom\SKILL.md`
-- `llama-cpp` [skill] in `hermes-agent` -> `hermes-agent\skills\mlops\inference\llama-cpp\SKILL.md`
-- `llm-wiki` [skill] in `hermes-agent` -> `hermes-agent\skills\research\llm-wiki\SKILL.md`
-- `manim-video` [skill] in `hermes-agent` -> `hermes-agent\skills\creative\manim-video\SKILL.md`
-- `maps` [skill] in `hermes-agent` -> `hermes-agent\skills\productivity\maps\SKILL.md`
-- `meeting-action-items` [skill] in `hermes-agent` -> `hermes-agent\skills\productivity\meeting-action-items\SKILL.md`
-- `merge-reconciler` [skill] in `hermes-agent` -> `hermes-agent\skills\autonomous-ai-agents\merge-reconciler\SKILL.md`
-- `nano-pdf` [skill] in `hermes-agent` -> `hermes-agent\skills\productivity\nano-pdf\SKILL.md`
-- `node-inspect-debugger` [skill] in `hermes-agent` -> `hermes-agent\skills\software-development\node-inspect-debugger\SKILL.md`
-- `notion` [skill] in `hermes-agent` -> `hermes-agent\skills\productivity\notion\SKILL.md`
-- `obsidian` [skill] in `hermes-agent` -> `hermes-agent\skills\note-taking\obsidian\SKILL.md`
-- `ocr-and-documents` [skill] in `hermes-agent` -> `hermes-agent\skills\productivity\ocr-and-documents\SKILL.md`
-- `opencode` [skill] in `hermes-agent` -> `hermes-agent\skills\autonomous-ai-agents\opencode\SKILL.md`
-- `openhue` [skill] in `hermes-agent` -> `hermes-agent\skills\smart-home\openhue\SKILL.md`
-- `p5js` [skill] in `hermes-agent` -> `hermes-agent\skills\creative\p5js\SKILL.md`
-- `pdf` [skill] in `hermes-agent` -> `hermes-agent\skills\productivity\pdf\SKILL.md`
-- `plan` [skill] in `hermes-agent` -> `hermes-agent\skills\software-development\plan\SKILL.md`
-- `popular-web-designs` [skill] in `hermes-agent` -> `hermes-agent\skills\creative\popular-web-designs\SKILL.md`
-- `powerpoint` [skill] in `hermes-agent` -> `hermes-agent\skills\productivity\powerpoint\SKILL.md`
-- `pretext` [skill] in `hermes-agent` -> `hermes-agent\skills\creative\pretext\SKILL.md`
-- `product-price-monitor` [skill] in `hermes-agent` -> `hermes-agent\skills\productivity\product-price-monitor\SKILL.md`
-- `python-debugpy` [skill] in `hermes-agent` -> `hermes-agent\skills\software-development\python-debugpy\SKILL.md`
-- `requesting-code-review` [skill] in `hermes-agent` -> `hermes-agent\skills\software-development\requesting-code-review\SKILL.md`
-- `research-paper-writing` [skill] in `hermes-agent` -> `hermes-agent\skills\research\research-paper-writing\SKILL.md`
-- `sdlc-review` [skill] in `hermes-agent` -> `hermes-agent\skills\devops\sdlc-review\SKILL.md`
-- `serving-llms-vllm` [skill] in `hermes-agent` -> `hermes-agent\skills\mlops\inference\serving-llms-vllm\SKILL.md`
-- `session-librarian` [skill] in `hermes-agent` -> `hermes-agent\skills\productivity\session-librarian\SKILL.md`
-- `simplify-code` [skill] in `hermes-agent` -> `hermes-agent\skills\software-development\simplify-code\SKILL.md`
-- `sketch` [skill] in `hermes-agent` -> `hermes-agent\skills\creative\sketch\SKILL.md`
-- `songsee` [skill] in `hermes-agent` -> `hermes-agent\skills\media\songsee\SKILL.md`
-- `songwriting-and-ai-music` [skill] in `hermes-agent` -> `hermes-agent\skills\creative\songwriting-and-ai-music\SKILL.md`
-- `spike` [skill] in `hermes-agent` -> `hermes-agent\skills\software-development\spike\SKILL.md`
-- `systematic-debugging` [skill] in `hermes-agent` -> `hermes-agent\skills\software-development\systematic-debugging\SKILL.md`
-- `teams-meeting-pipeline` [skill] in `hermes-agent` -> `hermes-agent\skills\productivity\teams-meeting-pipeline\SKILL.md`
-- `test-driven-development` [skill] in `hermes-agent` -> `hermes-agent\skills\software-development\test-driven-development\SKILL.md`
-- `touchdesigner-mcp` [skill] in `hermes-agent` -> `hermes-agent\skills\creative\touchdesigner-mcp\SKILL.md`
-- `weekly-review-planning` [skill] in `hermes-agent` -> `hermes-agent\skills\productivity\weekly-review-planning\SKILL.md`
-- `weights-and-biases` [skill] in `hermes-agent` -> `hermes-agent\skills\mlops\evaluation\weights-and-biases\SKILL.md`
-- `xlsx` [skill] in `hermes-agent` -> `hermes-agent\skills\productivity\xlsx\SKILL.md`
-- `xurl` [skill] in `hermes-agent` -> `hermes-agent\skills\social-media\xurl\SKILL.md`
-- `youtube-content` [skill] in `hermes-agent` -> `hermes-agent\skills\media\youtube-content\SKILL.md`
+- `airtable` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\productivity\airtable\SKILL.md`
+- `apple-notes` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\apple\apple-notes\SKILL.md`
+- `apple-reminders` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\apple\apple-reminders\SKILL.md`
+- `architecture-diagram` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\creative\architecture-diagram\SKILL.md`
+- `arxiv` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\research\arxiv\SKILL.md`
+- `ascii-art` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\creative\ascii-art\SKILL.md`
+- `ascii-video` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\creative\ascii-video\SKILL.md`
+- `baoyu-infographic` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\creative\baoyu-infographic\SKILL.md`
+- `blocked-page-recovery` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\research\blocked-page-recovery\SKILL.md`
+- `blogwatcher` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\research\blogwatcher\SKILL.md`
+- `box` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\productivity\box\SKILL.md`
+- `claude-code` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\autonomous-ai-agents\claude-code\SKILL.md`
+- `claude-design` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\creative\claude-design\SKILL.md`
+- `codebase-inspection` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\github\codebase-inspection\SKILL.md`
+- `codex` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\autonomous-ai-agents\codex\SKILL.md`
+- `comfyui` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\creative\comfyui\SKILL.md`
+- `competitor-news-monitor` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\research\competitor-news-monitor\SKILL.md`
+- `computer-use` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\autonomous-ai-agents\computer-use\SKILL.md`
+- `design-md` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\creative\design-md\SKILL.md`
+- `document-to-action-items` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\productivity\document-to-action-items\SKILL.md`
+- `docx` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\productivity\docx\SKILL.md`
+- `dogfood` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\software-development\dogfood\SKILL.md`
+- `email-inbox-triage` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\email\email-inbox-triage\SKILL.md`
+- `evaluating-llms-harness` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\mlops\evaluation\evaluating-llms-harness\SKILL.md`
+- `excalidraw` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\creative\excalidraw\SKILL.md`
+- `findmy` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\apple\findmy\SKILL.md`
+- `gif-search` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\media\gif-search\SKILL.md`
+- `github-auth` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\github\github-auth\SKILL.md`
+- `github-code-review` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\github\github-code-review\SKILL.md`
+- `github-issue-to-pr` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\github\github-issue-to-pr\SKILL.md`
+- `github-issues` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\github\github-issues\SKILL.md`
+- `github-pr-workflow` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\github\github-pr-workflow\SKILL.md`
+- `github-repo-management` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\github\github-repo-management\SKILL.md`
+- `google-workspace` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\productivity\google-workspace\SKILL.md`
+- `grounded-citations` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\research\grounded-citations\SKILL.md`
+- `hermes-agent-skill-authoring` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\software-development\hermes-agent-skill-authoring\SKILL.md`
+- `hermes-agent` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\autonomous-ai-agents\hermes-agent\SKILL.md`
+- `himalaya` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\email\himalaya\SKILL.md`
+- `huggingface-hub` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\mlops\huggingface-hub\SKILL.md`
+- `humanizer` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\creative\humanizer\SKILL.md`
+- `imessage` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\apple\imessage\SKILL.md`
+- `inspecting-hermes-desktop-dom` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\software-development\inspecting-hermes-desktop-dom\SKILL.md`
+- `llama-cpp` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\mlops\inference\llama-cpp\SKILL.md`
+- `llm-wiki` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\research\llm-wiki\SKILL.md`
+- `manim-video` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\creative\manim-video\SKILL.md`
+- `maps` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\productivity\maps\SKILL.md`
+- `meeting-action-items` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\productivity\meeting-action-items\SKILL.md`
+- `merge-reconciler` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\autonomous-ai-agents\merge-reconciler\SKILL.md`
+- `nano-pdf` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\productivity\nano-pdf\SKILL.md`
+- `node-inspect-debugger` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\software-development\node-inspect-debugger\SKILL.md`
+- `notion` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\productivity\notion\SKILL.md`
+- `obsidian` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\note-taking\obsidian\SKILL.md`
+- `ocr-and-documents` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\productivity\ocr-and-documents\SKILL.md`
+- `opencode` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\autonomous-ai-agents\opencode\SKILL.md`
+- `openhue` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\smart-home\openhue\SKILL.md`
+- `p5js` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\creative\p5js\SKILL.md`
+- `pdf` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\productivity\pdf\SKILL.md`
+- `plan` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\software-development\plan\SKILL.md`
+- `popular-web-designs` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\creative\popular-web-designs\SKILL.md`
+- `powerpoint` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\productivity\powerpoint\SKILL.md`
+- `pretext` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\creative\pretext\SKILL.md`
+- `product-price-monitor` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\productivity\product-price-monitor\SKILL.md`
+- `python-debugpy` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\software-development\python-debugpy\SKILL.md`
+- `requesting-code-review` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\software-development\requesting-code-review\SKILL.md`
+- `research-paper-writing` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\research\research-paper-writing\SKILL.md`
+- `sdlc-review` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\devops\sdlc-review\SKILL.md`
+- `serving-llms-vllm` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\mlops\inference\serving-llms-vllm\SKILL.md`
+- `session-librarian` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\productivity\session-librarian\SKILL.md`
+- `simplify-code` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\software-development\simplify-code\SKILL.md`
+- `sketch` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\creative\sketch\SKILL.md`
+- `songsee` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\media\songsee\SKILL.md`
+- `songwriting-and-ai-music` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\creative\songwriting-and-ai-music\SKILL.md`
+- `spike` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\software-development\spike\SKILL.md`
+- `systematic-debugging` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\software-development\systematic-debugging\SKILL.md`
+- `teams-meeting-pipeline` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\productivity\teams-meeting-pipeline\SKILL.md`
+- `test-driven-development` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\software-development\test-driven-development\SKILL.md`
+- `touchdesigner-mcp` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\creative\touchdesigner-mcp\SKILL.md`
+- `weekly-review-planning` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\productivity\weekly-review-planning\SKILL.md`
+- `weights-and-biases` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\mlops\evaluation\weights-and-biases\SKILL.md`
+- `xlsx` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\productivity\xlsx\SKILL.md`
+- `xurl` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\social-media\xurl\SKILL.md`
+- `youtube-content` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\skills\media\youtube-content\SKILL.md`
 
 ## hermes-optional-skills
 
-- `1password` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\security\1password\SKILL.md`
-- `3-statement-model` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\finance\3-statement-model\SKILL.md`
-- `accelerate` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mlops\accelerate\SKILL.md`
-- `actual-setup` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\devops\actual-setup\SKILL.md`
-- `adversarial-ux-test` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\dogfood\adversarial-ux-test\SKILL.md`
-- `agentmail` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\email\agentmail\SKILL.md`
-- `antigravity-cli` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\autonomous-ai-agents\antigravity-cli\SKILL.md`
-- `ast-grep` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\software-development\ast-grep\SKILL.md`
-- `audiocraft-audio-generation` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\creative\audiocraft-audio-generation\SKILL.md`
-- `axolotl` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mlops\training\axolotl\SKILL.md`
-- `baoyu-article-illustrator` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\creative\baoyu-article-illustrator\SKILL.md`
-- `baoyu-comic` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\creative\baoyu-comic\SKILL.md`
-- `bioinformatics` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\research\bioinformatics\SKILL.md`
-- `blackbox` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\autonomous-ai-agents\blackbox\SKILL.md`
-- `canvas` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\productivity\canvas\SKILL.md`
-- `chroma` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mlops\chroma\SKILL.md`
-- `clip` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mlops\clip\SKILL.md`
-- `cloudflare-temporary-deploy` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\web-development\cloudflare-temporary-deploy\SKILL.md`
-- `code-wiki` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\software-development\code-wiki\SKILL.md`
-- `comps-analysis` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\finance\comps-analysis\SKILL.md`
-- `concept-diagrams` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\creative\concept-diagrams\SKILL.md`
-- `creative-ideation` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\creative\creative-ideation\SKILL.md`
-- `darwinian-evolver` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\research\darwinian-evolver\SKILL.md`
-- `dcf-model` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\finance\dcf-model\SKILL.md`
-- `docker-management` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\devops\docker-management\SKILL.md`
-- `domain-intel` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\research\domain-intel\SKILL.md`
-- `draw-your-font` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\creative\draw-your-font\SKILL.md`
-- `drug-discovery` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\research\drug-discovery\SKILL.md`
-- `dspy` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mlops\research\dspy\SKILL.md`
-- `duckduckgo-search` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\research\duckduckgo-search\SKILL.md`
-- `evm` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\blockchain\evm\SKILL.md`
-- `excel-author` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\finance\excel-author\SKILL.md`
-- `faiss` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mlops\faiss\SKILL.md`
-- `fastmcp` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mcp\fastmcp\SKILL.md`
-- `fitness-nutrition` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\health\fitness-nutrition\SKILL.md`
-- `flash-attention` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mlops\flash-attention\SKILL.md`
-- `gitnexus-explorer` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\research\gitnexus-explorer\SKILL.md`
-- `godmode` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\security\godmode\SKILL.md`
-- `grok` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\autonomous-ai-agents\grok\SKILL.md`
-- `guidance` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mlops\guidance\SKILL.md`
-- `har-derived-api-client` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\web-development\har-derived-api-client\SKILL.md`
-- `heartmula` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\creative\heartmula\SKILL.md`
-- `here-now` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\productivity\here-now\SKILL.md`
-- `hermes-s6-container-supervision` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\devops\hermes-s6-container-supervision\SKILL.md`
-- `honcho` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\autonomous-ai-agents\honcho\SKILL.md`
-- `huggingface-tokenizers` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mlops\huggingface-tokenizers\SKILL.md`
-- `hyperframes` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\creative\hyperframes\SKILL.md`
-- `hyperliquid` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\blockchain\hyperliquid\SKILL.md`
-- `inference-sh-cli` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\devops\inference-sh-cli\SKILL.md`
-- `instructor` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mlops\instructor\SKILL.md`
-- `jupyter-notebook` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\data-science\jupyter-notebook\SKILL.md`
-- `kanban-video-orchestrator` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\creative\kanban-video-orchestrator\SKILL.md`
-- `lambda-labs` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mlops\lambda-labs\SKILL.md`
-- `lbo-model` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\finance\lbo-model\SKILL.md`
-- `llava` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mlops\llava\SKILL.md`
-- `mcp-oauth-remote-gateway` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mcp\mcp-oauth-remote-gateway\SKILL.md`
-- `mcporter` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mcp\mcporter\SKILL.md`
-- `meme-generation` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\creative\meme-generation\SKILL.md`
-- `memento-flashcards` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\productivity\memento-flashcards\SKILL.md`
-- `merger-model` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\finance\merger-model\SKILL.md`
-- `minecraft-modpack-server` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\gaming\minecraft-modpack-server\SKILL.md`
-- `modal` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mlops\modal\SKILL.md`
-- `mpp-agent` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\payments\mpp-agent\SKILL.md`
-- `nemo-curator` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mlops\nemo-curator\SKILL.md`
-- `neuroskill-bci` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\health\neuroskill-bci\SKILL.md`
-- `obliteratus` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mlops\obliteratus\SKILL.md`
-- `one-three-one-rule` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\communication\one-three-one-rule\SKILL.md`
-- `openclaw-migration` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\migration\openclaw-migration\SKILL.md`
-- `openhands` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\autonomous-ai-agents\openhands\SKILL.md`
-- `osint-investigation` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\research\osint-investigation\SKILL.md`
-- `oss-forensics` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\security\oss-forensics\SKILL.md`
-- `outlines` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mlops\inference\outlines\SKILL.md`
-- `page-agent` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\web-development\page-agent\SKILL.md`
-- `parallel-cli` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\research\parallel-cli\SKILL.md`
-- `peft` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mlops\peft\SKILL.md`
-- `pinecone-research` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\research\pinecone-research\SKILL.md`
-- `pinecone` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mlops\pinecone\SKILL.md`
-- `pinggy-tunnel` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\devops\pinggy-tunnel\SKILL.md`
-- `pixel-art` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\creative\pixel-art\SKILL.md`
-- `pokemon-player` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\gaming\pokemon-player\SKILL.md`
-- `polymarket` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\finance\polymarket\SKILL.md`
-- `pptx-author` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\finance\pptx-author\SKILL.md`
-- `pytorch-fsdp` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mlops\pytorch-fsdp\SKILL.md`
-- `pytorch-lightning` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mlops\pytorch-lightning\SKILL.md`
-- `qdrant` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mlops\qdrant\SKILL.md`
-- `qmd` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\research\qmd\SKILL.md`
-- `rest-graphql-debug` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\software-development\rest-graphql-debug\SKILL.md`
-- `saelens` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mlops\saelens\SKILL.md`
-- `scrapling` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\research\scrapling\SKILL.md`
-- `searxng-search` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\research\searxng-search\SKILL.md`
-- `segment-anything-model` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mlops\models\segment-anything-model\SKILL.md`
-- `sherlock` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\security\sherlock\SKILL.md`
-- `shop` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\productivity\shop\SKILL.md`
-- `shopify` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\productivity\shopify\SKILL.md`
-- `simple-english` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\creative\simple-english\SKILL.md`
-- `simpo` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mlops\simpo\SKILL.md`
-- `siyuan` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\productivity\siyuan\SKILL.md`
-- `slime` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mlops\slime\SKILL.md`
-- `social-media-content-calendar` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\creative\social-media-content-calendar\SKILL.md`
-- `solana` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\blockchain\solana\SKILL.md`
-- `stable-diffusion` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mlops\stable-diffusion\SKILL.md`
-- `stocks` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\finance\stocks\SKILL.md`
-- `stripe-link-cli` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\payments\stripe-link-cli\SKILL.md`
-- `stripe-projects` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\payments\stripe-projects\SKILL.md`
-- `subagent-driven-development` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\software-development\subagent-driven-development\SKILL.md`
-- `telephony` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\productivity\telephony\SKILL.md`
-- `tensorrt-llm` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mlops\tensorrt-llm\SKILL.md`
-- `tldraw-offline` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\creative\tldraw-offline\SKILL.md`
-- `torchtitan` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mlops\torchtitan\SKILL.md`
-- `trl-fine-tuning` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mlops\training\trl-fine-tuning\SKILL.md`
-- `unbroker` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\security\unbroker\SKILL.md`
-- `unreal-mcp` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\creative\unreal-mcp\SKILL.md`
-- `unsloth` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mlops\training\unsloth\SKILL.md`
-- `watchers` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\devops\watchers\SKILL.md`
-- `web-pentest` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\security\web-pentest\SKILL.md`
-- `whisper` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\mlops\whisper\SKILL.md`
-- `yuanbao` [skill] in `hermes-agent` -> `hermes-agent\optional-skills\yuanbao\SKILL.md`
+- `1password` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\security\1password\SKILL.md`
+- `3-statement-model` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\finance\3-statement-model\SKILL.md`
+- `accelerate` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mlops\accelerate\SKILL.md`
+- `actual-setup` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\devops\actual-setup\SKILL.md`
+- `adversarial-ux-test` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\dogfood\adversarial-ux-test\SKILL.md`
+- `agentmail` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\email\agentmail\SKILL.md`
+- `antigravity-cli` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\autonomous-ai-agents\antigravity-cli\SKILL.md`
+- `ast-grep` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\software-development\ast-grep\SKILL.md`
+- `audiocraft-audio-generation` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\creative\audiocraft-audio-generation\SKILL.md`
+- `axolotl` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mlops\training\axolotl\SKILL.md`
+- `baoyu-article-illustrator` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\creative\baoyu-article-illustrator\SKILL.md`
+- `baoyu-comic` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\creative\baoyu-comic\SKILL.md`
+- `bioinformatics` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\research\bioinformatics\SKILL.md`
+- `blackbox` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\autonomous-ai-agents\blackbox\SKILL.md`
+- `canvas` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\productivity\canvas\SKILL.md`
+- `chroma` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mlops\chroma\SKILL.md`
+- `clip` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mlops\clip\SKILL.md`
+- `cloudflare-temporary-deploy` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\web-development\cloudflare-temporary-deploy\SKILL.md`
+- `code-wiki` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\software-development\code-wiki\SKILL.md`
+- `comps-analysis` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\finance\comps-analysis\SKILL.md`
+- `concept-diagrams` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\creative\concept-diagrams\SKILL.md`
+- `creative-ideation` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\creative\creative-ideation\SKILL.md`
+- `darwinian-evolver` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\research\darwinian-evolver\SKILL.md`
+- `dcf-model` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\finance\dcf-model\SKILL.md`
+- `docker-management` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\devops\docker-management\SKILL.md`
+- `domain-intel` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\research\domain-intel\SKILL.md`
+- `draw-your-font` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\creative\draw-your-font\SKILL.md`
+- `drug-discovery` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\research\drug-discovery\SKILL.md`
+- `dspy` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mlops\research\dspy\SKILL.md`
+- `duckduckgo-search` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\research\duckduckgo-search\SKILL.md`
+- `evm` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\blockchain\evm\SKILL.md`
+- `excel-author` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\finance\excel-author\SKILL.md`
+- `faiss` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mlops\faiss\SKILL.md`
+- `fastmcp` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mcp\fastmcp\SKILL.md`
+- `fitness-nutrition` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\health\fitness-nutrition\SKILL.md`
+- `flash-attention` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mlops\flash-attention\SKILL.md`
+- `gitnexus-explorer` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\research\gitnexus-explorer\SKILL.md`
+- `godmode` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\security\godmode\SKILL.md`
+- `grok` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\autonomous-ai-agents\grok\SKILL.md`
+- `guidance` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mlops\guidance\SKILL.md`
+- `har-derived-api-client` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\web-development\har-derived-api-client\SKILL.md`
+- `heartmula` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\creative\heartmula\SKILL.md`
+- `here-now` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\productivity\here-now\SKILL.md`
+- `hermes-s6-container-supervision` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\devops\hermes-s6-container-supervision\SKILL.md`
+- `honcho` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\autonomous-ai-agents\honcho\SKILL.md`
+- `huggingface-tokenizers` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mlops\huggingface-tokenizers\SKILL.md`
+- `hyperframes` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\creative\hyperframes\SKILL.md`
+- `hyperliquid` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\blockchain\hyperliquid\SKILL.md`
+- `inference-sh-cli` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\devops\inference-sh-cli\SKILL.md`
+- `instructor` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mlops\instructor\SKILL.md`
+- `jupyter-notebook` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\data-science\jupyter-notebook\SKILL.md`
+- `kanban-video-orchestrator` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\creative\kanban-video-orchestrator\SKILL.md`
+- `lambda-labs` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mlops\lambda-labs\SKILL.md`
+- `lbo-model` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\finance\lbo-model\SKILL.md`
+- `llava` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mlops\llava\SKILL.md`
+- `mcp-oauth-remote-gateway` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mcp\mcp-oauth-remote-gateway\SKILL.md`
+- `mcporter` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mcp\mcporter\SKILL.md`
+- `meme-generation` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\creative\meme-generation\SKILL.md`
+- `memento-flashcards` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\productivity\memento-flashcards\SKILL.md`
+- `merger-model` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\finance\merger-model\SKILL.md`
+- `minecraft-modpack-server` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\gaming\minecraft-modpack-server\SKILL.md`
+- `modal` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mlops\modal\SKILL.md`
+- `mpp-agent` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\payments\mpp-agent\SKILL.md`
+- `nemo-curator` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mlops\nemo-curator\SKILL.md`
+- `neuroskill-bci` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\health\neuroskill-bci\SKILL.md`
+- `obliteratus` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mlops\obliteratus\SKILL.md`
+- `one-three-one-rule` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\communication\one-three-one-rule\SKILL.md`
+- `openclaw-migration` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\migration\openclaw-migration\SKILL.md`
+- `openhands` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\autonomous-ai-agents\openhands\SKILL.md`
+- `osint-investigation` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\research\osint-investigation\SKILL.md`
+- `oss-forensics` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\security\oss-forensics\SKILL.md`
+- `outlines` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mlops\inference\outlines\SKILL.md`
+- `page-agent` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\web-development\page-agent\SKILL.md`
+- `parallel-cli` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\research\parallel-cli\SKILL.md`
+- `peft` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mlops\peft\SKILL.md`
+- `pinecone-research` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\research\pinecone-research\SKILL.md`
+- `pinecone` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mlops\pinecone\SKILL.md`
+- `pinggy-tunnel` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\devops\pinggy-tunnel\SKILL.md`
+- `pixel-art` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\creative\pixel-art\SKILL.md`
+- `pokemon-player` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\gaming\pokemon-player\SKILL.md`
+- `polymarket` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\finance\polymarket\SKILL.md`
+- `pptx-author` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\finance\pptx-author\SKILL.md`
+- `pytorch-fsdp` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mlops\pytorch-fsdp\SKILL.md`
+- `pytorch-lightning` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mlops\pytorch-lightning\SKILL.md`
+- `qdrant` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mlops\qdrant\SKILL.md`
+- `qmd` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\research\qmd\SKILL.md`
+- `rest-graphql-debug` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\software-development\rest-graphql-debug\SKILL.md`
+- `saelens` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mlops\saelens\SKILL.md`
+- `scrapling` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\research\scrapling\SKILL.md`
+- `searxng-search` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\research\searxng-search\SKILL.md`
+- `segment-anything-model` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mlops\models\segment-anything-model\SKILL.md`
+- `sherlock` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\security\sherlock\SKILL.md`
+- `shop` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\productivity\shop\SKILL.md`
+- `shopify` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\productivity\shopify\SKILL.md`
+- `simple-english` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\creative\simple-english\SKILL.md`
+- `simpo` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mlops\simpo\SKILL.md`
+- `siyuan` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\productivity\siyuan\SKILL.md`
+- `slime` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mlops\slime\SKILL.md`
+- `social-media-content-calendar` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\creative\social-media-content-calendar\SKILL.md`
+- `solana` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\blockchain\solana\SKILL.md`
+- `stable-diffusion` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mlops\stable-diffusion\SKILL.md`
+- `stocks` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\finance\stocks\SKILL.md`
+- `stripe-link-cli` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\payments\stripe-link-cli\SKILL.md`
+- `stripe-projects` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\payments\stripe-projects\SKILL.md`
+- `subagent-driven-development` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\software-development\subagent-driven-development\SKILL.md`
+- `telephony` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\productivity\telephony\SKILL.md`
+- `tensorrt-llm` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mlops\tensorrt-llm\SKILL.md`
+- `tldraw-offline` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\creative\tldraw-offline\SKILL.md`
+- `torchtitan` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mlops\torchtitan\SKILL.md`
+- `trl-fine-tuning` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mlops\training\trl-fine-tuning\SKILL.md`
+- `unbroker` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\security\unbroker\SKILL.md`
+- `unreal-mcp` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\creative\unreal-mcp\SKILL.md`
+- `unsloth` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mlops\training\unsloth\SKILL.md`
+- `watchers` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\devops\watchers\SKILL.md`
+- `web-pentest` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\security\web-pentest\SKILL.md`
+- `whisper` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\mlops\whisper\SKILL.md`
+- `yuanbao` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\optional-skills\yuanbao\SKILL.md`
 
 ## hermes-plugins
 
-- `google_meet` [skill] in `hermes-agent` -> `hermes-agent\plugins\google_meet\SKILL.md`
+- `google_meet` [skill] in `hermes-agent` from `%USERPROFILE%\Projects` -> `hermes-agent\plugins\google_meet\SKILL.md`
+
+## other-agent-context
+
+- `computer-use` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\maka\packages\runtime\resources\bundled-skills\computer-use\SKILL.md`
+- `computer-use` [skill] in `maka` from `%USERPROFILE%\Projects` -> `maka\packages\runtime\resources\bundled-skills\computer-use\SKILL.md`
+- `computer-use` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\maka\packages\runtime\resources\bundled-skills\computer-use\SKILL.md`
+
+## perplexity-mcp-local
+
+- `daemon-status.json` [perplexity-mcp-status] in `profiles` from `%USERPROFILE%\.perplexity-mcp` -> `profiles\oliverp789\daemon-status.json`
+- `meta.json` [perplexity-mcp-status] in `profiles` from `%USERPROFILE%\.perplexity-mcp` -> `profiles\oliverp789\meta.json`
 
 ## personalization
 
-- `CODEX_PERSONALIZATION_INSTRUCTIONS.md` [personalization] in `.agents` -> `.agents\CODEX_PERSONALIZATION_INSTRUCTIONS.md`
+- `CODEX_PERSONALIZATION_INSTRUCTIONS.md` [personalization] in `.agents` from `%USERPROFILE%\Projects` -> `.agents\CODEX_PERSONALIZATION_INSTRUCTIONS.md`
 
 ## project-skills
 
-- `mission-led-motion-ui` [skill] in `23a5` -> `23a5\koa-website\skills\mission-led-motion-ui\SKILL.md`
-- `koa-frame-story-spec` [skill] in `325e` -> `325e\koa-website\skills\koa-frame-story-spec\SKILL.md`
-- `koa-mobile-preview` [skill] in `325e` -> `325e\koa-website\skills\koa-mobile-preview\SKILL.md`
-- `koa-translation-mapper` [skill] in `325e` -> `325e\koa-website\skills\koa-translation-mapper\SKILL.md`
-- `mission-led-motion-ui` [skill] in `325e` -> `325e\koa-website\skills\mission-led-motion-ui\SKILL.md`
-- `repo-understanding-sync` [skill] in `325e` -> `325e\koa-website\skills\repo-understanding-sync\SKILL.md`
-- `AGENTS.md` [agent-instructions] in `ai_eng_skill_map` -> `ai_eng_skill_map\skills\AGENTS.md`
-- `find-skills` [skill] in `ai_eng_skill_map` -> `ai_eng_skill_map\skills\skills\find-skills\SKILL.md`
-- `observe-youtube-workflow` [skill] in `ai-free-update-scrape` -> `ai-free-update-scrape\plugins\signal-console\skills\observe-youtube-workflow\SKILL.md`
-- `sgaw-ground-truth` [skill] in `karen-scraper-web` -> `karen-scraper-web\plugins\sgaw-ground-truth\skills\sgaw-ground-truth\SKILL.md`
-- `koa-frame-story-spec` [skill] in `koa-website-sites-publish-20260904-153159` -> `koa-website-sites-publish-20260904-153159\skills\koa-frame-story-spec\SKILL.md`
-- `koa-mobile-preview` [skill] in `koa-website-sites-publish-20260904-153159` -> `koa-website-sites-publish-20260904-153159\skills\koa-mobile-preview\SKILL.md`
-- `koa-translation-mapper` [skill] in `koa-website-sites-publish-20260904-153159` -> `koa-website-sites-publish-20260904-153159\skills\koa-translation-mapper\SKILL.md`
-- `mission-led-motion-ui` [skill] in `koa-website-sites-publish-20260904-153159` -> `koa-website-sites-publish-20260904-153159\skills\mission-led-motion-ui\SKILL.md`
-- `repo-understanding-sync` [skill] in `koa-website-sites-publish-20260904-153159` -> `koa-website-sites-publish-20260904-153159\skills\repo-understanding-sync\SKILL.md`
-- `koa-frame-story-spec` [skill] in `koa-website-sites-publish-lite-20260904-162630` -> `koa-website-sites-publish-lite-20260904-162630\skills\koa-frame-story-spec\SKILL.md`
-- `koa-mobile-preview` [skill] in `koa-website-sites-publish-lite-20260904-162630` -> `koa-website-sites-publish-lite-20260904-162630\skills\koa-mobile-preview\SKILL.md`
-- `koa-translation-mapper` [skill] in `koa-website-sites-publish-lite-20260904-162630` -> `koa-website-sites-publish-lite-20260904-162630\skills\koa-translation-mapper\SKILL.md`
-- `mission-led-motion-ui` [skill] in `koa-website-sites-publish-lite-20260904-162630` -> `koa-website-sites-publish-lite-20260904-162630\skills\mission-led-motion-ui\SKILL.md`
-- `repo-understanding-sync` [skill] in `koa-website-sites-publish-lite-20260904-162630` -> `koa-website-sites-publish-lite-20260904-162630\skills\repo-understanding-sync\SKILL.md`
-- `koa-frame-story-spec` [skill] in `koa-website-sites-publish-min-20260904-161735` -> `koa-website-sites-publish-min-20260904-161735\skills\koa-frame-story-spec\SKILL.md`
-- `koa-mobile-preview` [skill] in `koa-website-sites-publish-min-20260904-161735` -> `koa-website-sites-publish-min-20260904-161735\skills\koa-mobile-preview\SKILL.md`
-- `koa-translation-mapper` [skill] in `koa-website-sites-publish-min-20260904-161735` -> `koa-website-sites-publish-min-20260904-161735\skills\koa-translation-mapper\SKILL.md`
-- `mission-led-motion-ui` [skill] in `koa-website-sites-publish-min-20260904-161735` -> `koa-website-sites-publish-min-20260904-161735\skills\mission-led-motion-ui\SKILL.md`
-- `repo-understanding-sync` [skill] in `koa-website-sites-publish-min-20260904-161735` -> `koa-website-sites-publish-min-20260904-161735\skills\repo-understanding-sync\SKILL.md`
-- `koa-frame-story-spec` [skill] in `koa-website` -> `koa-website\skills\koa-frame-story-spec\SKILL.md`
-- `koa-mobile-preview` [skill] in `koa-website` -> `koa-website\skills\koa-mobile-preview\SKILL.md`
-- `koa-translation-mapper` [skill] in `koa-website` -> `koa-website\skills\koa-translation-mapper\SKILL.md`
-- `mission-led-motion-ui` [skill] in `koa-website` -> `koa-website\skills\mission-led-motion-ui\SKILL.md`
-- `repo-understanding-sync` [skill] in `koa-website` -> `koa-website\skills\repo-understanding-sync\SKILL.md`
-- `lead-ops-console` [skill] in `money_AI_automate` -> `money_AI_automate\lead-gen-scrape\plugins\lead-ops-console\skills\lead-ops-console\SKILL.md`
-- `sync-ai-career-hub` [skill] in `portfolio_hub` -> `portfolio_hub\portfolio_website_tech\plugins\ai-career-hub\skills\sync-ai-career-hub\SKILL.md`
-- `portfolio-ops-orchestrator` [skill] in `portfolio-ops-orchestrator` -> `portfolio-ops-orchestrator\plugins\portfolio-ops-orchestrator\skills\portfolio-ops-orchestrator\SKILL.md`
+- `mission-led-motion-ui` [skill] in `23a5` from `%USERPROFILE%\Projects` -> `23a5\koa-website\skills\mission-led-motion-ui\SKILL.md`
+- `koa-frame-story-spec` [skill] in `325e` from `%USERPROFILE%\Projects` -> `325e\koa-website\skills\koa-frame-story-spec\SKILL.md`
+- `koa-mobile-preview` [skill] in `325e` from `%USERPROFILE%\Projects` -> `325e\koa-website\skills\koa-mobile-preview\SKILL.md`
+- `koa-translation-mapper` [skill] in `325e` from `%USERPROFILE%\Projects` -> `325e\koa-website\skills\koa-translation-mapper\SKILL.md`
+- `mission-led-motion-ui` [skill] in `325e` from `%USERPROFILE%\Projects` -> `325e\koa-website\skills\mission-led-motion-ui\SKILL.md`
+- `repo-understanding-sync` [skill] in `325e` from `%USERPROFILE%\Projects` -> `325e\koa-website\skills\repo-understanding-sync\SKILL.md`
+- `AGENTS.md` [agent-instructions] in `ai_eng_skill_map` from `%USERPROFILE%\Projects` -> `ai_eng_skill_map\skills\AGENTS.md`
+- `find-skills` [skill] in `ai_eng_skill_map` from `%USERPROFILE%\Projects` -> `ai_eng_skill_map\skills\skills\find-skills\SKILL.md`
+- `observe-youtube-workflow` [skill] in `ai-free-update-scrape` from `%USERPROFILE%\Projects` -> `ai-free-update-scrape\plugins\signal-console\skills\observe-youtube-workflow\SKILL.md`
+- `sgaw-ground-truth` [skill] in `github-sync` from `%USERPROFILE%\Projects` -> `github-sync\karen-scraper-web\plugins\sgaw-ground-truth\skills\sgaw-ground-truth\SKILL.md`
+- `gitnexus-cli` [skill] in `gitnexus-claude-plugin` from `%USERPROFILE%\maka-gitnexus-integration` -> `gitnexus-claude-plugin\skills\gitnexus-cli\SKILL.md`
+- `gitnexus-debugging` [skill] in `gitnexus-claude-plugin` from `%USERPROFILE%\maka-gitnexus-integration` -> `gitnexus-claude-plugin\skills\gitnexus-debugging\SKILL.md`
+- `gitnexus-exploring` [skill] in `gitnexus-claude-plugin` from `%USERPROFILE%\maka-gitnexus-integration` -> `gitnexus-claude-plugin\skills\gitnexus-exploring\SKILL.md`
+- `gitnexus-guide` [skill] in `gitnexus-claude-plugin` from `%USERPROFILE%\maka-gitnexus-integration` -> `gitnexus-claude-plugin\skills\gitnexus-guide\SKILL.md`
+- `gitnexus-impact-analysis` [skill] in `gitnexus-claude-plugin` from `%USERPROFILE%\maka-gitnexus-integration` -> `gitnexus-claude-plugin\skills\gitnexus-impact-analysis\SKILL.md`
+- `gitnexus-lfg` [skill] in `gitnexus-claude-plugin` from `%USERPROFILE%\maka-gitnexus-integration` -> `gitnexus-claude-plugin\skills\gitnexus-lfg\SKILL.md`
+- `gitnexus-pdg-query` [skill] in `gitnexus-claude-plugin` from `%USERPROFILE%\maka-gitnexus-integration` -> `gitnexus-claude-plugin\skills\gitnexus-pdg-query\SKILL.md`
+- `gitnexus-plan` [skill] in `gitnexus-claude-plugin` from `%USERPROFILE%\maka-gitnexus-integration` -> `gitnexus-claude-plugin\skills\gitnexus-plan\SKILL.md`
+- `gitnexus-refactoring` [skill] in `gitnexus-claude-plugin` from `%USERPROFILE%\maka-gitnexus-integration` -> `gitnexus-claude-plugin\skills\gitnexus-refactoring\SKILL.md`
+- `gitnexus-review` [skill] in `gitnexus-claude-plugin` from `%USERPROFILE%\maka-gitnexus-integration` -> `gitnexus-claude-plugin\skills\gitnexus-review\SKILL.md`
+- `gitnexus-taint-analysis` [skill] in `gitnexus-claude-plugin` from `%USERPROFILE%\maka-gitnexus-integration` -> `gitnexus-claude-plugin\skills\gitnexus-taint-analysis\SKILL.md`
+- `gitnexus-work` [skill] in `gitnexus-claude-plugin` from `%USERPROFILE%\maka-gitnexus-integration` -> `gitnexus-claude-plugin\skills\gitnexus-work\SKILL.md`
+- `gitnexus-debugging` [skill] in `gitnexus-cursor-integration` from `%USERPROFILE%\maka-gitnexus-integration` -> `gitnexus-cursor-integration\skills\gitnexus-debugging\SKILL.md`
+- `gitnexus-exploring` [skill] in `gitnexus-cursor-integration` from `%USERPROFILE%\maka-gitnexus-integration` -> `gitnexus-cursor-integration\skills\gitnexus-exploring\SKILL.md`
+- `gitnexus-impact-analysis` [skill] in `gitnexus-cursor-integration` from `%USERPROFILE%\maka-gitnexus-integration` -> `gitnexus-cursor-integration\skills\gitnexus-impact-analysis\SKILL.md`
+- `gitnexus-refactoring` [skill] in `gitnexus-cursor-integration` from `%USERPROFILE%\maka-gitnexus-integration` -> `gitnexus-cursor-integration\skills\gitnexus-refactoring\SKILL.md`
+- `gitnexus-review` [skill] in `gitnexus-cursor-integration` from `%USERPROFILE%\maka-gitnexus-integration` -> `gitnexus-cursor-integration\skills\gitnexus-review\SKILL.md`
+- `sgaw-ground-truth` [skill] in `karen-scraper-web` from `%USERPROFILE%\Projects` -> `karen-scraper-web\plugins\sgaw-ground-truth\skills\sgaw-ground-truth\SKILL.md`
+- `koa-frame-story-spec` [skill] in `koa-website-sites-publish-20260904-153159` from `%USERPROFILE%\Projects` -> `koa-website-sites-publish-20260904-153159\skills\koa-frame-story-spec\SKILL.md`
+- `koa-mobile-preview` [skill] in `koa-website-sites-publish-20260904-153159` from `%USERPROFILE%\Projects` -> `koa-website-sites-publish-20260904-153159\skills\koa-mobile-preview\SKILL.md`
+- `koa-translation-mapper` [skill] in `koa-website-sites-publish-20260904-153159` from `%USERPROFILE%\Projects` -> `koa-website-sites-publish-20260904-153159\skills\koa-translation-mapper\SKILL.md`
+- `mission-led-motion-ui` [skill] in `koa-website-sites-publish-20260904-153159` from `%USERPROFILE%\Projects` -> `koa-website-sites-publish-20260904-153159\skills\mission-led-motion-ui\SKILL.md`
+- `repo-understanding-sync` [skill] in `koa-website-sites-publish-20260904-153159` from `%USERPROFILE%\Projects` -> `koa-website-sites-publish-20260904-153159\skills\repo-understanding-sync\SKILL.md`
+- `koa-frame-story-spec` [skill] in `koa-website-sites-publish-lite-20260904-162630` from `%USERPROFILE%\Projects` -> `koa-website-sites-publish-lite-20260904-162630\skills\koa-frame-story-spec\SKILL.md`
+- `koa-mobile-preview` [skill] in `koa-website-sites-publish-lite-20260904-162630` from `%USERPROFILE%\Projects` -> `koa-website-sites-publish-lite-20260904-162630\skills\koa-mobile-preview\SKILL.md`
+- `koa-translation-mapper` [skill] in `koa-website-sites-publish-lite-20260904-162630` from `%USERPROFILE%\Projects` -> `koa-website-sites-publish-lite-20260904-162630\skills\koa-translation-mapper\SKILL.md`
+- `mission-led-motion-ui` [skill] in `koa-website-sites-publish-lite-20260904-162630` from `%USERPROFILE%\Projects` -> `koa-website-sites-publish-lite-20260904-162630\skills\mission-led-motion-ui\SKILL.md`
+- `repo-understanding-sync` [skill] in `koa-website-sites-publish-lite-20260904-162630` from `%USERPROFILE%\Projects` -> `koa-website-sites-publish-lite-20260904-162630\skills\repo-understanding-sync\SKILL.md`
+- `koa-frame-story-spec` [skill] in `koa-website-sites-publish-min-20260904-161735` from `%USERPROFILE%\Projects` -> `koa-website-sites-publish-min-20260904-161735\skills\koa-frame-story-spec\SKILL.md`
+- `koa-mobile-preview` [skill] in `koa-website-sites-publish-min-20260904-161735` from `%USERPROFILE%\Projects` -> `koa-website-sites-publish-min-20260904-161735\skills\koa-mobile-preview\SKILL.md`
+- `koa-translation-mapper` [skill] in `koa-website-sites-publish-min-20260904-161735` from `%USERPROFILE%\Projects` -> `koa-website-sites-publish-min-20260904-161735\skills\koa-translation-mapper\SKILL.md`
+- `mission-led-motion-ui` [skill] in `koa-website-sites-publish-min-20260904-161735` from `%USERPROFILE%\Projects` -> `koa-website-sites-publish-min-20260904-161735\skills\mission-led-motion-ui\SKILL.md`
+- `repo-understanding-sync` [skill] in `koa-website-sites-publish-min-20260904-161735` from `%USERPROFILE%\Projects` -> `koa-website-sites-publish-min-20260904-161735\skills\repo-understanding-sync\SKILL.md`
+- `koa-frame-story-spec` [skill] in `koa-website` from `%USERPROFILE%\Projects` -> `koa-website\skills\koa-frame-story-spec\SKILL.md`
+- `koa-mobile-preview` [skill] in `koa-website` from `%USERPROFILE%\Projects` -> `koa-website\skills\koa-mobile-preview\SKILL.md`
+- `koa-translation-mapper` [skill] in `koa-website` from `%USERPROFILE%\Projects` -> `koa-website\skills\koa-translation-mapper\SKILL.md`
+- `mission-led-motion-ui` [skill] in `koa-website` from `%USERPROFILE%\Projects` -> `koa-website\skills\mission-led-motion-ui\SKILL.md`
+- `repo-understanding-sync` [skill] in `koa-website` from `%USERPROFILE%\Projects` -> `koa-website\skills\repo-understanding-sync\SKILL.md`
+- `code-review` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\maka\.github\skills\code-review\SKILL.md`
+- `maka-architecture-docs` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\maka\skills\maka-architecture-docs\SKILL.md`
+- `mission-led-motion-ui` [skill] in `life-os-setup` from `%USERPROFILE%\Projects` -> `life-os-setup\skills\mission-led-motion-ui\SKILL.md`
+- `code-review` [skill] in `maka` from `%USERPROFILE%\Projects` -> `maka\.github\skills\code-review\SKILL.md`
+- `maka-architecture-docs` [skill] in `maka` from `%USERPROFILE%\Projects` -> `maka\skills\maka-architecture-docs\SKILL.md`
+- `code-review` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\maka\.github\skills\code-review\SKILL.md`
+- `maka-architecture-docs` [skill] in `MakaLifeOS` from `%USERPROFILE%\Projects` -> `MakaLifeOS\maka\skills\maka-architecture-docs\SKILL.md`
+- `lead-ops-console` [skill] in `money_AI_automate` from `%USERPROFILE%\Projects` -> `money_AI_automate\lead-gen-scrape\plugins\lead-ops-console\skills\lead-ops-console\SKILL.md`
+- `sync-ai-career-hub` [skill] in `portfolio_hub` from `%USERPROFILE%\Projects` -> `portfolio_hub\portfolio_website_tech\plugins\ai-career-hub\skills\sync-ai-career-hub\SKILL.md`
+- `portfolio-ops-orchestrator` [skill] in `portfolio-ops-orchestrator` from `%USERPROFILE%\Projects` -> `portfolio-ops-orchestrator\plugins\portfolio-ops-orchestrator\skills\portfolio-ops-orchestrator\SKILL.md`
 
 ## qoder
 
-- `AI Integration.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\AI Integration.md`
-- `API Reference.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\API Reference\API Reference.md`
-- `Batch Processing Configuration.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\Data Models and Storage\Batch Processing Configuration.md`
-- `Batch Processing System.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\Web Interface and Workbench\Batch Processing System.md`
-- `Core Components and Responsibilities.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\System Architecture\Core Components and Responsibilities\Core Components and Responsibilities.md`
-- `Data Integrity Verification.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\Testing and Validation\Data Integrity Verification.md`
-- `Data Models and Storage.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\Data Models and Storage\Data Models and Storage.md`
-- `Deployment and Production.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\Deployment and Production.md`
-- `Developer Guide.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\Developer Guide.md`
-- `Dictionary Entry Schema.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\Data Models and Storage\Dictionary Entry Schema.md`
-- `Dictionary Management Interface.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\Web Interface and Workbench\Dictionary Management Interface.md`
-- `Dictionary Processing.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\Dictionary Processing\Dictionary Processing.md`
-- `Flask Application Architecture.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\Web Interface and Workbench\Flask Application Architecture.md`
-- `Getting Started.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\Getting Started.md`
-- `Index Mapping System.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\Data Models and Storage\Index Mapping System.md`
-- `Integration Patterns and External Services.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\System Architecture\Integration Patterns and External Services.md`
-- `KNU Font Decoding.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\Dictionary Processing\KNU Font Decoding.md`
-- `Local Translator Suite APIs.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\API Reference\Local Translator Suite APIs.md`
-- `Local Translator Suite.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\Local Translator Suite.md`
-- `Main Application APIs.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\API Reference\Main Application APIs\Main Application APIs.md`
-- `Model Training Pipeline.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\OCR Training Pipeline\Model Training Pipeline\Model Training Pipeline.md`
-- `Model Validation and Performance Metrics.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\Testing and Validation\Model Validation and Performance Metrics.md`
-- `OCR Training Pipeline.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\OCR Training Pipeline\OCR Training Pipeline.md`
-- `Paragraph-Level Inference.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\OCR Training Pipeline\Paragraph-Level Inference.md`
-- `PDF Processing and Page Splitting.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\Dictionary Processing\PDF Processing and Page Splitting.md`
-- `Processing Pipeline Architecture.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\System Architecture\Processing Pipeline Architecture.md`
-- `Project Overview.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\Project Overview.md`
-- `repowiki-metadata.json` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\meta\repowiki-metadata.json`
-- `Shared Endpoints and Utilities.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\API Reference\Shared Endpoints and Utilities.md`
-- `Sorting Engine and Correction Logic.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\Dictionary Processing\Sorting Engine and Correction Logic.md`
-- `Synthetic Dataset Generation.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\OCR Training Pipeline\Synthetic Dataset Generation.md`
-- `System Architecture.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\System Architecture\System Architecture.md`
-- `System Overview and Data Flow.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\System Architecture\System Overview and Data Flow.md`
-- `Test Dataset Generation.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\Testing and Validation\Test Dataset Generation.md`
-- `Testing and Validation.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\Testing and Validation\Testing and Validation.md`
-- `Web Interface and Workbench.md` [qoder-context] in `karen-lang-trans` -> `karen-lang-trans\.qoder\repowiki\en\content\Web Interface and Workbench\Web Interface and Workbench.md`
-- `_index.yaml` [qoder-context] in `sons_of_kawthoolei` -> `sons_of_kawthoolei\.qoder\repowiki\knowledge\en\_index.yaml`
-- `_module.yaml` [qoder-context] in `sons_of_kawthoolei` -> `sons_of_kawthoolei\.qoder\repowiki\knowledge\en\Project Root & Metadata\_module.yaml`
-- `architecture_design.md` [qoder-context] in `sons_of_kawthoolei` -> `sons_of_kawthoolei\.qoder\repowiki\knowledge\en\Project Root & Metadata\architecture_design.md`
-- `Dual Styling System Tailwind CSS 4 + Hand-Crafted CSS Mockups.md` [qoder-context] in `sons_of_kawthoolei` -> `sons_of_kawthoolei\.qoder\repowiki\knowledge\en\Dual Styling System Tailwind CSS 4 + Hand-Crafted CSS Mockups\Dual Styling System Tailwind CSS 4 + Hand-Crafted CSS Mockups.md`
-- `Error Handling in Next.js on Cloudflare Workers.md` [qoder-context] in `sons_of_kawthoolei` -> `sons_of_kawthoolei\.qoder\repowiki\knowledge\en\Error Handling in Next.js on Cloudflare Workers\Error Handling in Next.js on Cloudflare Workers.md`
-- `npm-based dependency management with lockfiles and pinned versions.md` [qoder-context] in `sons_of_kawthoolei` -> `sons_of_kawthoolei\.qoder\repowiki\knowledge\en\npm-based dependency management with lockfiles and pinned versions\npm-based dependency management with lockfiles and pinned versions.md`
-- `overview.md` [qoder-context] in `sons_of_kawthoolei` -> `sons_of_kawthoolei\.qoder\repowiki\knowledge\en\Project Root & Metadata\overview.md`
-- `repowiki-metadata.json` [qoder-context] in `sons_of_kawthoolei` -> `sons_of_kawthoolei\.qoder\repowiki\en\meta\repowiki-metadata.json`
-- `tech_stack.md` [qoder-context] in `sons_of_kawthoolei` -> `sons_of_kawthoolei\.qoder\repowiki\knowledge\en\Project Root & Metadata\tech_stack.md`
-- `unique_setup_and_commands.md` [qoder-context] in `sons_of_kawthoolei` -> `sons_of_kawthoolei\.qoder\repowiki\knowledge\en\Project Root & Metadata\unique_setup_and_commands.md`
-- `Vite + Vinext + Cloudflare Workers build & deploy pipeline.md` [qoder-context] in `sons_of_kawthoolei` -> `sons_of_kawthoolei\.qoder\repowiki\knowledge\en\Vite + Vinext + Cloudflare Workers build & deploy pipeline\Vite + Vinext + Cloudflare Workers build & deploy pipeline.md`
-- `Vite_Next + Cloudflare Worker Configuration via JSON and .env Files.md` [qoder-context] in `sons_of_kawthoolei` -> `sons_of_kawthoolei\.qoder\repowiki\knowledge\en\Vite_Next + Cloudflare Worker Configuration via JSON and .env Files\Vite_Next + Cloudflare Worker Configuration via JSON and .env Files.md`
+- `AI Integration.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\AI Integration.md`
+- `API Reference.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\API Reference\API Reference.md`
+- `Batch Processing Configuration.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\Data Models and Storage\Batch Processing Configuration.md`
+- `Batch Processing System.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\Web Interface and Workbench\Batch Processing System.md`
+- `Core Components and Responsibilities.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\System Architecture\Core Components and Responsibilities\Core Components and Responsibilities.md`
+- `Data Integrity Verification.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\Testing and Validation\Data Integrity Verification.md`
+- `Data Models and Storage.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\Data Models and Storage\Data Models and Storage.md`
+- `Deployment and Production.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\Deployment and Production.md`
+- `Developer Guide.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\Developer Guide.md`
+- `Dictionary Entry Schema.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\Data Models and Storage\Dictionary Entry Schema.md`
+- `Dictionary Management Interface.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\Web Interface and Workbench\Dictionary Management Interface.md`
+- `Dictionary Processing.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\Dictionary Processing\Dictionary Processing.md`
+- `Flask Application Architecture.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\Web Interface and Workbench\Flask Application Architecture.md`
+- `Getting Started.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\Getting Started.md`
+- `Index Mapping System.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\Data Models and Storage\Index Mapping System.md`
+- `Integration Patterns and External Services.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\System Architecture\Integration Patterns and External Services.md`
+- `KNU Font Decoding.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\Dictionary Processing\KNU Font Decoding.md`
+- `Local Translator Suite APIs.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\API Reference\Local Translator Suite APIs.md`
+- `Local Translator Suite.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\Local Translator Suite.md`
+- `Main Application APIs.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\API Reference\Main Application APIs\Main Application APIs.md`
+- `Model Training Pipeline.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\OCR Training Pipeline\Model Training Pipeline\Model Training Pipeline.md`
+- `Model Validation and Performance Metrics.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\Testing and Validation\Model Validation and Performance Metrics.md`
+- `OCR Training Pipeline.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\OCR Training Pipeline\OCR Training Pipeline.md`
+- `Paragraph-Level Inference.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\OCR Training Pipeline\Paragraph-Level Inference.md`
+- `PDF Processing and Page Splitting.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\Dictionary Processing\PDF Processing and Page Splitting.md`
+- `Processing Pipeline Architecture.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\System Architecture\Processing Pipeline Architecture.md`
+- `Project Overview.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\Project Overview.md`
+- `repowiki-metadata.json` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\meta\repowiki-metadata.json`
+- `Shared Endpoints and Utilities.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\API Reference\Shared Endpoints and Utilities.md`
+- `Sorting Engine and Correction Logic.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\Dictionary Processing\Sorting Engine and Correction Logic.md`
+- `Synthetic Dataset Generation.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\OCR Training Pipeline\Synthetic Dataset Generation.md`
+- `System Architecture.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\System Architecture\System Architecture.md`
+- `System Overview and Data Flow.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\System Architecture\System Overview and Data Flow.md`
+- `Test Dataset Generation.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\Testing and Validation\Test Dataset Generation.md`
+- `Testing and Validation.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\Testing and Validation\Testing and Validation.md`
+- `Web Interface and Workbench.md` [qoder-context] in `karen-lang-trans` from `%USERPROFILE%\Projects` -> `karen-lang-trans\.qoder\repowiki\en\content\Web Interface and Workbench\Web Interface and Workbench.md`
+- `_index.yaml` [qoder-context] in `sons_of_kawthoolei` from `%USERPROFILE%\Projects` -> `sons_of_kawthoolei\.qoder\repowiki\knowledge\en\_index.yaml`
+- `_module.yaml` [qoder-context] in `sons_of_kawthoolei` from `%USERPROFILE%\Projects` -> `sons_of_kawthoolei\.qoder\repowiki\knowledge\en\Project Root & Metadata\_module.yaml`
+- `architecture_design.md` [qoder-context] in `sons_of_kawthoolei` from `%USERPROFILE%\Projects` -> `sons_of_kawthoolei\.qoder\repowiki\knowledge\en\Project Root & Metadata\architecture_design.md`
+- `Dual Styling System Tailwind CSS 4 + Hand-Crafted CSS Mockups.md` [qoder-context] in `sons_of_kawthoolei` from `%USERPROFILE%\Projects` -> `sons_of_kawthoolei\.qoder\repowiki\knowledge\en\Dual Styling System Tailwind CSS 4 + Hand-Crafted CSS Mockups\Dual Styling System Tailwind CSS 4 + Hand-Crafted CSS Mockups.md`
+- `Error Handling in Next.js on Cloudflare Workers.md` [qoder-context] in `sons_of_kawthoolei` from `%USERPROFILE%\Projects` -> `sons_of_kawthoolei\.qoder\repowiki\knowledge\en\Error Handling in Next.js on Cloudflare Workers\Error Handling in Next.js on Cloudflare Workers.md`
+- `npm-based dependency management with lockfiles and pinned versions.md` [qoder-context] in `sons_of_kawthoolei` from `%USERPROFILE%\Projects` -> `sons_of_kawthoolei\.qoder\repowiki\knowledge\en\npm-based dependency management with lockfiles and pinned versions\npm-based dependency management with lockfiles and pinned versions.md`
+- `overview.md` [qoder-context] in `sons_of_kawthoolei` from `%USERPROFILE%\Projects` -> `sons_of_kawthoolei\.qoder\repowiki\knowledge\en\Project Root & Metadata\overview.md`
+- `repowiki-metadata.json` [qoder-context] in `sons_of_kawthoolei` from `%USERPROFILE%\Projects` -> `sons_of_kawthoolei\.qoder\repowiki\en\meta\repowiki-metadata.json`
+- `tech_stack.md` [qoder-context] in `sons_of_kawthoolei` from `%USERPROFILE%\Projects` -> `sons_of_kawthoolei\.qoder\repowiki\knowledge\en\Project Root & Metadata\tech_stack.md`
+- `unique_setup_and_commands.md` [qoder-context] in `sons_of_kawthoolei` from `%USERPROFILE%\Projects` -> `sons_of_kawthoolei\.qoder\repowiki\knowledge\en\Project Root & Metadata\unique_setup_and_commands.md`
+- `Vite + Vinext + Cloudflare Workers build & deploy pipeline.md` [qoder-context] in `sons_of_kawthoolei` from `%USERPROFILE%\Projects` -> `sons_of_kawthoolei\.qoder\repowiki\knowledge\en\Vite + Vinext + Cloudflare Workers build & deploy pipeline\Vite + Vinext + Cloudflare Workers build & deploy pipeline.md`
+- `Vite_Next + Cloudflare Worker Configuration via JSON and .env Files.md` [qoder-context] in `sons_of_kawthoolei` from `%USERPROFILE%\Projects` -> `sons_of_kawthoolei\.qoder\repowiki\knowledge\en\Vite_Next + Cloudflare Worker Configuration via JSON and .env Files\Vite_Next + Cloudflare Worker Configuration via JSON and .env Files.md`
+
+## skillmp-skillshub-local
+
+- `a-loud-reader-inbox-hook` [skill] in `a-loud-reader-inbox-hook` from `%USERPROFILE%\.skillshub` -> `a-loud-reader-inbox-hook\SKILL.md`
+- `academy-guide` [skill] in `academy-guide` from `%USERPROFILE%\.skillshub` -> `academy-guide\SKILL.md`
+- `add-feature-template` [skill] in `add-feature-template` from `%USERPROFILE%\.skillshub` -> `add-feature-template\SKILL.md`
+- `aheadrush-evidence-video-planner` [skill] in `aheadrush-evidence-video-planner` from `%USERPROFILE%\.skillshub` -> `aheadrush-evidence-video-planner\SKILL.md`
+- `aheadrush-production-ledger` [skill] in `aheadrush-production-ledger` from `%USERPROFILE%\.skillshub` -> `aheadrush-production-ledger\SKILL.md`
+- `aheadrush-research-brief` [skill] in `aheadrush-research-brief` from `%USERPROFILE%\.skillshub` -> `aheadrush-research-brief\SKILL.md`
+- `ai-sdk` [skill] in `ai-sdk` from `%USERPROFILE%\.skillshub` -> `ai-sdk\SKILL.md`
+- `upstream` [skill] in `ai-sdk` from `%USERPROFILE%\.skillshub` -> `ai-sdk\upstream\SKILL.md`
+- `algorithmic-art` [skill] in `algorithmic-art` from `%USERPROFILE%\.skillshub` -> `algorithmic-art\SKILL.md`
+- `astryx-ui` [skill] in `astryx-ui` from `%USERPROFILE%\.skillshub` -> `astryx-ui\SKILL.md`
+- `auth` [skill] in `auth` from `%USERPROFILE%\.skillshub` -> `auth\SKILL.md`
+- `bootstrap` [skill] in `bootstrap` from `%USERPROFILE%\.skillshub` -> `bootstrap\SKILL.md`
+- `brand-guidelines` [skill] in `brand-guidelines` from `%USERPROFILE%\.skillshub` -> `brand-guidelines\SKILL.md`
+- `caveman-clarifier` [skill] in `caveman-clarifier` from `%USERPROFILE%\.skillshub` -> `caveman-clarifier\SKILL.md`
+- `chat-sdk` [skill] in `chat-sdk` from `%USERPROFILE%\.skillshub` -> `chat-sdk\SKILL.md`
+- `upstream` [skill] in `chat-sdk` from `%USERPROFILE%\.skillshub` -> `chat-sdk\upstream\SKILL.md`
+- `contextual-model-selector` [skill] in `contextual-model-selector` from `%USERPROFILE%\.skillshub` -> `contextual-model-selector\SKILL.md`
+- `define-goal` [skill] in `define-goal` from `%USERPROFILE%\.skillshub` -> `define-goal\SKILL.md`
+- `deployments-cicd` [skill] in `deployments-cicd` from `%USERPROFILE%\.skillshub` -> `deployments-cicd\SKILL.md`
+- `design-spec-interview` [skill] in `design-spec-interview` from `%USERPROFILE%\.skillshub` -> `design-spec-interview\SKILL.md`
+- `design-taste-frontend` [skill] in `design-taste-frontend` from `%USERPROFILE%\.skillshub` -> `design-taste-frontend\SKILL.md`
+- `env-vars` [skill] in `env-vars` from `%USERPROFILE%\.skillshub` -> `env-vars\SKILL.md`
+- `find-project-skills` [skill] in `find-project-skills` from `%USERPROFILE%\.skillshub` -> `find-project-skills\SKILL.md`
+- `free-model-provider-router` [skill] in `free-model-provider-router` from `%USERPROFILE%\.skillshub` -> `free-model-provider-router\SKILL.md`
+- `freelance-demand-brief` [skill] in `freelance-demand-brief` from `%USERPROFILE%\.skillshub` -> `freelance-demand-brief\SKILL.md`
+- `freelance-fiverr-gigs` [skill] in `freelance-fiverr-gigs` from `%USERPROFILE%\.skillshub` -> `freelance-fiverr-gigs\SKILL.md`
+- `freelance-proof-capture` [skill] in `freelance-proof-capture` from `%USERPROFILE%\.skillshub` -> `freelance-proof-capture\SKILL.md`
+- `freelance-upwork-offers` [skill] in `freelance-upwork-offers` from `%USERPROFILE%\.skillshub` -> `freelance-upwork-offers\SKILL.md`
+- `frontend-design` [skill] in `frontend-design` from `%USERPROFILE%\.skillshub` -> `frontend-design\SKILL.md`
+- `hatch-pet` [skill] in `hatch-pet` from `%USERPROFILE%\.skillshub` -> `hatch-pet\SKILL.md`
+- `impeccable-design-polish` [skill] in `impeccable-design-polish` from `%USERPROFILE%\.skillshub` -> `impeccable-design-polish\SKILL.md`
+- `import-karen-chord-chart` [skill] in `import-karen-chord-chart` from `%USERPROFILE%\.skillshub` -> `import-karen-chord-chart\SKILL.md`
+- `justify-subject-focus` [skill] in `justify-subject-focus` from `%USERPROFILE%\.skillshub` -> `justify-subject-focus\SKILL.md`
+- `karen-music-project-router` [skill] in `karen-music-project-router` from `%USERPROFILE%\.skillshub` -> `karen-music-project-router\SKILL.md`
+- `knowledge-update` [skill] in `knowledge-update` from `%USERPROFILE%\.skillshub` -> `knowledge-update\SKILL.md`
+- `koa-cinematic-site-template` [skill] in `koa-cinematic-site-template` from `%USERPROFILE%\.skillshub` -> `koa-cinematic-site-template\SKILL.md`
+- `koa-website-skill` [skill] in `koa-website-skill` from `%USERPROFILE%\.skillshub` -> `koa-website-skill\SKILL.md`
+- `magicpath` [skill] in `magicpath` from `%USERPROFILE%\.skillshub` -> `magicpath\SKILL.md`
+- `marketplace` [skill] in `marketplace` from `%USERPROFILE%\.skillshub` -> `marketplace\SKILL.md`
+- `mcp-builder` [skill] in `mcp-builder` from `%USERPROFILE%\.skillshub` -> `mcp-builder\SKILL.md`
+- `mcp-opportunity-generator` [skill] in `mcp-opportunity-generator` from `%USERPROFILE%\.skillshub` -> `mcp-opportunity-generator\SKILL.md`
+- `midrush-ai-router` [skill] in `midrush-ai-router` from `%USERPROFILE%\.skillshub` -> `midrush-ai-router\SKILL.md`
+- `migrate-to-codex` [skill] in `migrate-to-codex` from `%USERPROFILE%\.skillshub` -> `migrate-to-codex\SKILL.md`
+- `next-cache-components` [skill] in `next-cache-components` from `%USERPROFILE%\.skillshub` -> `next-cache-components\SKILL.md`
+- `upstream` [skill] in `next-cache-components` from `%USERPROFILE%\.skillshub` -> `next-cache-components\upstream\SKILL.md`
+- `next-forge` [skill] in `next-forge` from `%USERPROFILE%\.skillshub` -> `next-forge\SKILL.md`
+- `upstream` [skill] in `next-forge` from `%USERPROFILE%\.skillshub` -> `next-forge\upstream\SKILL.md`
+- `next-upgrade` [skill] in `next-upgrade` from `%USERPROFILE%\.skillshub` -> `next-upgrade\SKILL.md`
+- `upstream` [skill] in `next-upgrade` from `%USERPROFILE%\.skillshub` -> `next-upgrade\upstream\SKILL.md`
+- `nextjs` [skill] in `nextjs` from `%USERPROFILE%\.skillshub` -> `nextjs\SKILL.md`
+- `upstream` [skill] in `nextjs` from `%USERPROFILE%\.skillshub` -> `nextjs\upstream\SKILL.md`
+- `open-midrush-ai` [skill] in `open-midrush-ai` from `%USERPROFILE%\.skillshub` -> `open-midrush-ai\SKILL.md`
+- `operator-dashboard-polish` [skill] in `operator-dashboard-polish` from `%USERPROFILE%\.skillshub` -> `operator-dashboard-polish\SKILL.md`
+- `pdf` [skill] in `pdf` from `%USERPROFILE%\.skillshub` -> `pdf\SKILL.md`
+- `playwright-interactive` [skill] in `playwright-interactive` from `%USERPROFILE%\.skillshub` -> `playwright-interactive\SKILL.md`
+- `playwright` [skill] in `playwright` from `%USERPROFILE%\.skillshub` -> `playwright\SKILL.md`
+- `portfolio-ops-orchestrator` [skill] in `portfolio-ops-orchestrator` from `%USERPROFILE%\.skillshub` -> `portfolio-ops-orchestrator\SKILL.md`
+- `portfolio-productization-radar` [skill] in `portfolio-productization-radar` from `%USERPROFILE%\.skillshub` -> `portfolio-productization-radar\SKILL.md`
+- `project-role-loop-builder` [skill] in `project-role-loop-builder` from `%USERPROFILE%\.skillshub` -> `project-role-loop-builder\SKILL.md`
+- `prompt-refinery-feature-inventory` [skill] in `prompt-refinery-feature-inventory` from `%USERPROFILE%\.skillshub` -> `prompt-refinery-feature-inventory\SKILL.md`
+- `purpose-led-ui-design` [skill] in `purpose-led-ui-design` from `%USERPROFILE%\.skillshub` -> `purpose-led-ui-design\SKILL.md`
+- `AGENTS.md` [agent-instructions] in `react-best-practices` from `%USERPROFILE%\.skillshub` -> `react-best-practices\AGENTS.md`
+- `AGENTS.md` [agent-instructions] in `react-best-practices` from `%USERPROFILE%\.skillshub` -> `react-best-practices\upstream\AGENTS.md`
+- `react-best-practices` [skill] in `react-best-practices` from `%USERPROFILE%\.skillshub` -> `react-best-practices\SKILL.md`
+- `upstream` [skill] in `react-best-practices` from `%USERPROFILE%\.skillshub` -> `react-best-practices\upstream\SKILL.md`
+- `refine-messy-prompt` [skill] in `refine-messy-prompt` from `%USERPROFILE%\.skillshub` -> `refine-messy-prompt\SKILL.md`
+- `request-adherence-tracker` [skill] in `request-adherence-tracker` from `%USERPROFILE%\.skillshub` -> `request-adherence-tracker\SKILL.md`
+- `request-implementation-ledger` [skill] in `request-implementation-ledger` from `%USERPROFILE%\.skillshub` -> `request-implementation-ledger\SKILL.md`
+- `restart-karen-music-sites` [skill] in `restart-karen-music-sites` from `%USERPROFILE%\.skillshub` -> `restart-karen-music-sites\SKILL.md`
+- `routing-middleware` [skill] in `routing-middleware` from `%USERPROFILE%\.skillshub` -> `routing-middleware\SKILL.md`
+- `run-code-handoff` [skill] in `run-code-handoff` from `%USERPROFILE%\.skillshub` -> `run-code-handoff\SKILL.md`
+- `runtime-cache` [skill] in `runtime-cache` from `%USERPROFILE%\.skillshub` -> `runtime-cache\SKILL.md`
+- `scoped-prompt-loop` [skill] in `scoped-prompt-loop` from `%USERPROFILE%\.skillshub` -> `scoped-prompt-loop\SKILL.md`
+- `screenshot` [skill] in `screenshot` from `%USERPROFILE%\.skillshub` -> `screenshot\SKILL.md`
+- `sentry` [skill] in `sentry` from `%USERPROFILE%\.skillshub` -> `sentry\SKILL.md`
+- `shadcn` [skill] in `shadcn` from `%USERPROFILE%\.skillshub` -> `shadcn\SKILL.md`
+- `skill-diesel` [skill] in `skill-diesel` from `%USERPROFILE%\.skillshub` -> `skill-diesel\SKILL.md`
+- `skill-stack-maximizer` [skill] in `skill-stack-maximizer` from `%USERPROFILE%\.skillshub` -> `skill-stack-maximizer\SKILL.md`
+- `speech` [skill] in `speech` from `%USERPROFILE%\.skillshub` -> `speech\SKILL.md`
+- `structure-messy-output` [skill] in `structure-messy-output` from `%USERPROFILE%\.skillshub` -> `structure-messy-output\SKILL.md`
+- `synthesize-model-panel` [skill] in `synthesize-model-panel` from `%USERPROFILE%\.skillshub` -> `synthesize-model-panel\SKILL.md`
+- `tailor-job-documents` [skill] in `tailor-job-documents` from `%USERPROFILE%\.skillshub` -> `tailor-job-documents\SKILL.md`
+- `template-workflow-builder` [skill] in `template-workflow-builder` from `%USERPROFILE%\.skillshub` -> `template-workflow-builder\SKILL.md`
+- `theme-factory` [skill] in `theme-factory` from `%USERPROFILE%\.skillshub` -> `theme-factory\SKILL.md`
+- `thread-context-switch-advisor` [skill] in `thread-context-switch-advisor` from `%USERPROFILE%\.skillshub` -> `thread-context-switch-advisor\SKILL.md`
+- `three-direction-next-prompts` [skill] in `three-direction-next-prompts` from `%USERPROFILE%\.skillshub` -> `three-direction-next-prompts\SKILL.md`
+- `transcribe` [skill] in `transcribe` from `%USERPROFILE%\.skillshub` -> `transcribe\SKILL.md`
+- `tts-path-aliaser` [skill] in `tts-path-aliaser` from `%USERPROFILE%\.skillshub` -> `tts-path-aliaser\SKILL.md`
+- `tts-redundancy-aliaser` [skill] in `tts-redundancy-aliaser` from `%USERPROFILE%\.skillshub` -> `tts-redundancy-aliaser\SKILL.md`
+- `turbopack` [skill] in `turbopack` from `%USERPROFILE%\.skillshub` -> `turbopack\SKILL.md`
+- `vercel-agent` [skill] in `vercel-agent` from `%USERPROFILE%\.skillshub` -> `vercel-agent\SKILL.md`
+- `upstream` [skill] in `vercel-cli` from `%USERPROFILE%\.skillshub` -> `vercel-cli\upstream\SKILL.md`
+- `vercel-cli` [skill] in `vercel-cli` from `%USERPROFILE%\.skillshub` -> `vercel-cli\SKILL.md`
+- `vercel-firewall` [skill] in `vercel-firewall` from `%USERPROFILE%\.skillshub` -> `vercel-firewall\SKILL.md`
+- `vercel-functions` [skill] in `vercel-functions` from `%USERPROFILE%\.skillshub` -> `vercel-functions\SKILL.md`
+- `upstream` [skill] in `vercel-sandbox` from `%USERPROFILE%\.skillshub` -> `vercel-sandbox\upstream\SKILL.md`
+- `vercel-sandbox` [skill] in `vercel-sandbox` from `%USERPROFILE%\.skillshub` -> `vercel-sandbox\SKILL.md`
+- `vercel-storage` [skill] in `vercel-storage` from `%USERPROFILE%\.skillshub` -> `vercel-storage\SKILL.md`
+- `verification` [skill] in `verification` from `%USERPROFILE%\.skillshub` -> `verification\SKILL.md`
+- `verify-response-adherence` [skill] in `verify-response-adherence` from `%USERPROFILE%\.skillshub` -> `verify-response-adherence\SKILL.md`
+- `upstream` [skill] in `workflow` from `%USERPROFILE%\.skillshub` -> `workflow\upstream\SKILL.md`
+- `workflow` [skill] in `workflow` from `%USERPROFILE%\.skillshub` -> `workflow\SKILL.md`
+- `worktree-setup-orchestrator` [skill] in `worktree-setup-orchestrator` from `%USERPROFILE%\.skillshub` -> `worktree-setup-orchestrator\SKILL.md`
 

@@ -119,6 +119,7 @@ For voice: speak freely, end with → *"Normalize what I just said into this str
 | `index.html` | `sentiment-life/index.html` | Live artifact + data |
 | `AGENTS.md` | This file | You are here |
 | `AGENT_CONTEXT.md` | `agent-skill-context/AGENT_CONTEXT.md` | Master cross-agent skill routing and sync boundaries |
+| `HANDOFF_PROPS.md` | `agent-skill-context/HANDOFF_PROPS.md` | Harness props and prompt contract for skill sync |
 | `SKILLS_INDEX.md` | `agent-skill-context/SKILLS_INDEX.md` | Generated index of local Codex, Hermes, Qoder, and project agent skills |
 | `MEMORY_BUNDLE.json` | `sentiment-life/` (exported) | Full portable state |
 | `CLAUDE.md` / `AGENTS.md` | Repo roots | Per-project instructions |

@@ -12,12 +12,48 @@ function readArg(name, fallback) {
   return args[index + 1];
 }
 
+function readArgs(name) {
+  const values = [];
+  for (let index = 0; index < args.length; index += 1) {
+    if (args[index] === name && index + 1 < args.length) {
+      values.push(args[index + 1]);
+    }
+  }
+  return values;
+}
+
 const scriptRoot = path.dirname(new URL(import.meta.url).pathname).replace(/^\/([A-Za-z]:)/, "$1");
 const repoRoot = path.resolve(scriptRoot, "..");
 const defaultProjectsRoot = process.env.USERPROFILE ? path.join(process.env.USERPROFILE, "Projects") : process.cwd();
 const projectsRoot = path.resolve(readArg("--projects-root", defaultProjectsRoot));
 const outputDir = path.resolve(readArg("--output-dir", path.join(repoRoot, "agent-skill-context")));
 const userProfile = process.env.USERPROFILE ? path.resolve(process.env.USERPROFILE) : "";
+
+function existingDefaultRoots() {
+  const candidates = [
+    projectsRoot,
+    path.join(userProfile, ".agents"),
+    path.join(userProfile, ".codex", "skills"),
+    path.join(userProfile, ".codex", "plugins", "cache"),
+    path.join(userProfile, ".codex", "vendor_imports"),
+    path.join(userProfile, ".skillshub"),
+    path.join(userProfile, ".qoder"),
+    path.join(userProfile, ".hermes"),
+    path.join(userProfile, ".perplexity-mcp"),
+    path.join(userProfile, "GitNexus"),
+    path.join(userProfile, "maka-gitnexus-integration"),
+    path.join(userProfile, "Documents", "GitHub"),
+  ];
+
+  return candidates
+    .filter(Boolean)
+    .map((candidate) => path.resolve(candidate))
+    .filter((candidate, index, roots) => roots.findIndex((root) => root.toLowerCase() === candidate.toLowerCase()) === index)
+    .filter((candidate) => fs.existsSync(candidate));
+}
+
+const explicitSourceRoots = readArgs("--source-root").map((root) => path.resolve(root));
+const sourceRoots = explicitSourceRoots.length ? explicitSourceRoots : existingDefaultRoots();
 
 function publicPathLabel(filePath) {
   const resolved = path.resolve(filePath);
@@ -42,27 +78,43 @@ function isQoderContext(filePath) {
   return [".md", ".json", ".yaml", ".yml"].includes(path.extname(filePath).toLowerCase());
 }
 
+function isPerplexityPublicContext(filePath) {
+  const normalized = filePath.toLowerCase().replaceAll("/", "\\");
+  if (!normalized.includes("\\.perplexity-mcp\\")) {
+    return false;
+  }
+  return normalized.endsWith("\\meta.json") || normalized.endsWith("\\daemon-status.json");
+}
+
 function isTargetFile(filePath) {
-  return targetFileNames.has(path.basename(filePath)) || isQoderContext(filePath);
+  return targetFileNames.has(path.basename(filePath)) || isQoderContext(filePath) || isPerplexityPublicContext(filePath);
 }
 
 const skipSegments = new Set([
+  ".auth",
   ".git",
   ".next",
   ".turbo",
   ".venv",
   "__pycache__",
   "build",
+  "browser-data",
+  "cache",
   "dist",
+  "login-browser-data",
+  "logs",
   "node_modules",
   "site-packages",
+  "tasks",
+  "tmp",
+  "transcript",
 ]);
 
 function hasSkippedSegment(filePath) {
   return filePath.split(/[\\/]/).some((part) => skipSegments.has(part));
 }
 
-function runRg() {
+function runRg(scanRoot) {
   const result = spawnSync(
     "rg",
     [
@@ -96,7 +148,7 @@ function runRg() {
       "CODEX_PERSONALIZATION_INSTRUCTIONS.md",
       "-g",
       "**/.qoder/**",
-      projectsRoot,
+      scanRoot,
     ],
     { encoding: "utf8", maxBuffer: 50 * 1024 * 1024 }
   );
@@ -128,8 +180,8 @@ function walk(dir, found = []) {
   return found;
 }
 
-function projectName(filePath) {
-  const relative = path.relative(projectsRoot, filePath);
+function projectName(filePath, sourceRoot) {
+  const relative = path.relative(sourceRoot, filePath);
   const first = relative.split(path.sep)[0];
   return first || ".";
 }
@@ -141,6 +193,12 @@ function skillName(filePath) {
 function sourceFamily(filePath) {
   const normalized = filePath.toLowerCase().replaceAll("/", "\\");
   if (/\\qoder\\|\\\.qoder\\|qoder/.test(normalized)) return "qoder";
+  if (normalized.includes("\\.skillshub\\")) return "skillmp-skillshub-local";
+  if (normalized.includes("\\.perplexity-mcp\\")) return "perplexity-mcp-local";
+  if (normalized.includes("\\.codex\\plugins\\cache\\")) return "codex-plugin-cache-skills";
+  if (normalized.includes("\\.codex\\vendor_imports\\")) return "codex-vendor-import-skills";
+  if (normalized.includes("\\.codex\\skills\\")) return "codex-global-skills";
+  if (normalized.includes("\\gitnexus\\")) return "gitnexus-local-skills";
   if (normalized.includes("\\hermes-agent\\optional-skills\\")) return "hermes-optional-skills";
   if (normalized.includes("\\hermes-agent\\skills\\")) return "hermes-core-skills";
   if (normalized.includes("\\hermes-agent\\plugins\\")) return "hermes-plugins";
@@ -157,6 +215,7 @@ function sourceFamily(filePath) {
 function artifactKind(filePath) {
   const base = path.basename(filePath);
   if (isQoderContext(filePath)) return "qoder-context";
+  if (isPerplexityPublicContext(filePath)) return "perplexity-mcp-status";
   if (base === "SKILL.md") return "skill";
   if (base === "AGENTS.md") return "agent-instructions";
   if (base === "CLAUDE.md") return "claude-instructions";
@@ -166,24 +225,44 @@ function artifactKind(filePath) {
 
 fs.mkdirSync(outputDir, { recursive: true });
 
-const rawPaths = runRg() ?? walk(projectsRoot);
-const filePaths = [...new Set(rawPaths.map((filePath) => path.resolve(filePath)))]
-  .filter((filePath) => isTargetFile(filePath))
-  .filter((filePath) => !hasSkippedSegment(filePath))
-  .sort((a, b) => a.localeCompare(b));
-
-const records = filePaths.map((filePath) => ({
-  name: path.basename(filePath) === "SKILL.md" ? skillName(filePath) : path.basename(filePath),
-  kind: artifactKind(filePath),
-  source_family: sourceFamily(filePath),
-  project: projectName(filePath),
-  relative_path: path.relative(projectsRoot, filePath),
+const scannedRoots = sourceRoots.map((sourceRoot) => ({
+  path: sourceRoot,
+  label: publicPathLabel(sourceRoot),
 }));
+
+const seen = new Set();
+const records = [];
+for (const sourceRoot of sourceRoots) {
+  const rawPaths = runRg(sourceRoot) ?? walk(sourceRoot);
+  const filePaths = [...new Set(rawPaths.map((filePath) => path.resolve(filePath)))]
+    .filter((filePath) => isTargetFile(filePath))
+    .filter((filePath) => !hasSkippedSegment(filePath))
+    .sort((a, b) => a.localeCompare(b));
+
+  for (const filePath of filePaths) {
+    const key = filePath.toLowerCase();
+    if (seen.has(key)) {
+      continue;
+    }
+    seen.add(key);
+    records.push({
+      name: path.basename(filePath) === "SKILL.md" ? skillName(filePath) : path.basename(filePath),
+      kind: artifactKind(filePath),
+      source_family: sourceFamily(filePath),
+      project: projectName(filePath, sourceRoot),
+      source_root: publicPathLabel(sourceRoot),
+      relative_path: path.relative(sourceRoot, filePath),
+    });
+  }
+}
+
+records.sort((a, b) => `${a.source_family}/${a.source_root}/${a.relative_path}`.localeCompare(`${b.source_family}/${b.source_root}/${b.relative_path}`));
 
 const generatedAt = new Date().toISOString();
 const inventory = {
   generated_at: generatedAt,
   projects_root: publicPathLabel(projectsRoot),
+  scanned_roots: scannedRoots.map((root) => root.label),
   output_dir: path.relative(repoRoot, outputDir) || ".",
   exclusions: [...skipSegments].sort(),
   total_records: records.length,
@@ -204,7 +283,11 @@ const indexLines = [
   "",
   `Generated: ${generatedAt}`,
   "",
-  `Projects root: \`${publicPathLabel(projectsRoot)}\``,
+  `Primary projects root: \`${publicPathLabel(projectsRoot)}\``,
+  "",
+  "Scanned roots:",
+  "",
+  ...scannedRoots.map((root) => `- \`${root.label}\``),
   "",
   "This index is generated from local agent-facing files. It intentionally excludes dependency folders and build output.",
   "",
@@ -216,7 +299,7 @@ for (const family of [...byFamily.keys()].sort()) {
     `${a.project}/${a.name}/${a.relative_path}`.localeCompare(`${b.project}/${b.name}/${b.relative_path}`)
   );
   for (const record of rows) {
-    indexLines.push(`- \`${record.name}\` [${record.kind}] in \`${record.project}\` -> \`${record.relative_path}\``);
+    indexLines.push(`- \`${record.name}\` [${record.kind}] in \`${record.project}\` from \`${record.source_root}\` -> \`${record.relative_path}\``);
   }
   indexLines.push("");
 }
@@ -234,12 +317,17 @@ const contextLines = [
   "",
   "This directory is the local source of truth for cross-agent skill context. It extends the existing `agent-hub` repo instead of creating another hub.",
   "",
+  "## Scanned roots",
+  "",
+  ...scannedRoots.map((root) => `- \`${root.label}\``),
+  "",
   "## How agents should use this",
   "",
   "1. Start with `AGENT_HUB.md` at the repo root for Oliver-level context.",
   "2. Use `agent-skill-context/SKILLS_INDEX.md` to find agent-specific skills and instruction files.",
   "3. Use `agent-skill-context/skill-inventory.json` for automation, diffing, or GitHub/Drive sync.",
-  "4. Read only the relevant source `SKILL.md` or instruction file before applying that skill.",
+  "4. Use `agent-skill-context/HANDOFF_PROPS.md` when another agent or harness needs sync props.",
+  "5. Read only the relevant source `SKILL.md` or instruction file before applying that skill.",
   "",
   "## Sync boundaries",
   "",
